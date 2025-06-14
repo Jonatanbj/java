@@ -12,6 +12,7 @@
 |---|---|
 | • **Sintaxis**:<br>&nbsp;&nbsp;&nbsp;&nbsp;• *\<sentencia\>* **::=** *\<sentenciaSalida\>*<br>&nbsp;&nbsp;&nbsp;&nbsp;• *\<sentenciaSalida\>* **::=** **console.writeln^** **([<expresion\> ])** **;**<br>&nbsp;&nbsp;&nbsp;&nbsp;• *\<expresion\>* **::=** *\<literal\>*<br>&nbsp;&nbsp;&nbsp;&nbsp;• *\<literal\>* **::=** *\<cadenaCaracteres\>*<br><br>• **Semántica**:<br>&nbsp;&nbsp;&nbsp;&nbsp;• Se ejecutan secuencialmente de arriba a abajo todas las sentencias<br><br>• ***Advertencia***:<br>&nbsp;&nbsp;&nbsp;&nbsp;• *Las ocho primeras líneas y dos últimas se explilcarán en los sucesivos apartados de este documento!!!*<br>&nbsp;&nbsp;&nbsp;&nbsp;• *Todos los códigos deben ir acompañandos en carpeta "utils" el fichero:* [utils/Console.java](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/utils/Console.java) | ```package es.usantatecla.a0_itinerario.a0_programa.v0;
 
+```java
 class App {
     
     public static void main(String[] args) {
@@ -20,7 +21,8 @@ class App {
         console.writeln();
         console.writeln("Adios Mundo !!!");
     }
-}```
+}
+```
 
 ## **Comentarios** | ***java***
 

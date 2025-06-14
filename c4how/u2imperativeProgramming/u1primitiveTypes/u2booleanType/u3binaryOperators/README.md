@@ -1,4 +1,4 @@
-# Operadores binarios
+# [Operadores binarios](../u3binaryOperators/README.md)
 
 
 
@@ -29,7 +29,7 @@
  | 
 
 
-```
+```java
 class App {
 
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-# Tipos Primitivos
+# [Tipos Primitivos](../u1primitiveTypes/README.mdd)
 
 [Tipos numéricos](u1numericTypes/README.md)
 [Tipo boolean](u2booleanType/README.md)
