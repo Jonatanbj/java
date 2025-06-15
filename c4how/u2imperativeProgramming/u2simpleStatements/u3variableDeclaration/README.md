@@ -1,22 +1,15 @@
-# Sentencia de Declaración de Variable
+# [Sentencia de Declaración de Variable](../u3variableDeclaration/README.md)
 
 
-
-
-
-
-| Sentencia de Declaración de Variable | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<sentencia>* **::=** **(** **byte** **|** **short** **|** **int** **|** **long** **|** **float** **|** **double** **|** **char** **|** **String** **|** **boolean** **)** *<identificador> [ **=** <expresion> **];***
-	+ *<identificador>* **::=** [ a - zA - Z\_$ ] [ a - zA - z0 - 9\_$ ]*
+  * `<sentencia>` **::=** **(** **byte** **|** **short** **|** **int** **|** **long** **|** **float** **|** **double** **|** **char** **|** **String** **|** **boolean** **)** `<identificador>` [ **=** `<expresion>` **];**
+  * <identificador>* **::=** [ a - zA - Z\_$ ] [ a - zA - z0 - 9\_$ ]*
 	
 	
-		- **distinto** de cualquier **otro identificador** del mismo ámbito y de cualquier **palabra reservada**: *const, let, if, for, function, new, …​*
-		- **estilo**: ***camelCase***: palabras yuxtapuestas con la inicial en mayúsculas a partir de la segunda palabra
+    * **distinto** de cualquier **otro identificador** del mismo ámbito y de cualquier **palabra reservada**: *const, let, if, for, function, new, …​*
+	* **estilo**: ***camelCase***: palabras yuxtapuestas con la inicial en mayúsculas a partir de la segunda palabra <br><br>
 
 * **Semántica**:
 
@@ -29,13 +22,11 @@
 		- **modificar su valor mediante la asignación del valor de la evalución de una expresión**,
 		- **desde la línea de la declaración hasta el final del ámbito que encierra la declaración**
 
+<br><br>
 
 
- | 
 
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a2\_sentenciasSimples.a3\_variable;
+```java
 
 class App {
 
@@ -57,45 +48,27 @@ class App {
     }
 }
 ```
+<br><br>
 
-
- |
-| 
 **Palabras Reservadas**
- |
-| 
 
-palabrasReservadas
+| abstract   | assert     | boolean  | break   | byte    | case     | catch    |
+|-----------|-----------|----------|--------|--------|--------|--------|
+| char      | class     | const    | continue | default | do      | double  |
+| else      | enum      | extends  | false   | final   | finally | float   |
+| for       | goto      | if       | implements | import  | instanceof | int   |
+| interface | long      | native   | new     | null    | package  | private |
+| protected | public    | return   | short   | static  | strictfp | super   |
+| switch    | synchronized | this | throw  | throws  | transient | true  |
+| try       | void      | volatile | while   |        |        |        |
 
- |
+<br><br>
 
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
-* [2-texts/0-regards/v3](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#0-regardsv3) : [*v3.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v3_0/App.java) - [v3.1](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v3_1/App.java)
+| **Aplicaciones** |--- | --- | --- |
+| --- | --- | --- | --- |
+| * [2-texts/0-regards/v3](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#0-regardsv3) : [*v3.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v3_0/App.java) - [v3.1](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v3_1/App.java) | * [2-texts/0-regards/v4](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#0-regardsv4) : [v4.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v4_0/App.java) | * [2-texts/1-echo/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#1-echov0) : [*v0.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a1_echo/v0_0/App.java) - [v0.1](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a1_echo/v0_1/App.java) | * [0-time/0-units/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/0-time.md#0-unitsv0) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a0_units/v0_0/App.java)
 
 
- | 
-* [2-texts/0-regards/v4](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#0-regardsv4) : [v4.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v4_0/App.java)
-
-
- | 
-* [2-texts/1-echo/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#1-echov0) : [*v0.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a1_echo/v0_0/App.java) - [v0.1](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a1_echo/v0_1/App.java)
-
-
- |
-| 
-* [0-time/0-units/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/0-time.md#0-unitsv0) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a0_units/v0_0/App.java)
-
-
- |  |  |
 
 
 ---

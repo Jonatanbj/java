@@ -5,48 +5,39 @@
 
 
 
-| 
-* **Sintaxis**:
+## [Operadores Binarios Infijos Java ](../u3binaryOperators/README.md)
+
+### Sintaxis
 
 
-	+ *<expresion>* **::=** *<expresion>* *<operadorAritmetico>* *<expresion>*
-	+ *<operadorAritmetico>* **::=** **-** **|** ***** **|** **/** **|** **%**
+- *\<expresion>*  **::=** *\<expresion>* *\<operadorBinarioLogico>* *\<expresion>* <br><br>
+- *\<operadorBinarioLogico>*  **::=** **&&** **\|** **\|\|** 
 
-* **Semántica**:
-
-
-	+ operan sobre valores numéricos del mismo tipo, y devuelven un valor del tipo de los operandos (menos *byte, short* y *char*, que devuelven *int*)
-	
-	
-		- **+**, suma
-		- **-**, resta
-		- *****, multiplicación
-		- **/**, división
-		- **%**, módulo resto
+### Semántica
 
 
-
- | 
+- **&&**  y-lógico  Devuelve la evaluación de la primera expresión, **no *true***, cuando **ambos operandos evalúan a cierto** 
+- **\|\|**  o-lógico  **Devuelve la evaluación de la primera expresión**, **no *true*** **cuando es cierto o, caso contrario, la evaluación de la segunda expresión cuando es cierta** 
+- ***false*** en casos contrarios |
 
 
 ```java
-class App {
+public class App {
 
-  public static void main(String[] args) {
-    Console console = new Console();
-    console.writeln(4 + 5); // 9
-    console.writeln(4 - 5); // -1
-    console.writeln(4 * 5); // 20
-    console.writeln(4 / 5); // 0.8
-    console.writeln(4 % 5); // 4
+    public static void main(String[] args) {
+        Console console = new Console();
 
-    //console.writeln(4 / 0); // Exception
-    //console.writeln(4 % 0); // Exception
+        console.writeln(false && false); // false
+        console.writeln(false && true); // false
+        console.writeln(true && false); // false
+        console.writeln(true && true); // true
 
-    console.writeln(0.1e-7 + 1e7); // 1.000000000000001E7
-    console.writeln(0.1e-8 + 1e8); // 1.0E8
-    console.writeln(0.1 + 0.2); // 0.30000000000000004
-  }
+        console.writeln(false || false); // false
+        console.writeln(false || true); // true
+        console.writeln(true || false); // true
+        console.writeln(true || true); // true
+    }
+
 }
 ```
 

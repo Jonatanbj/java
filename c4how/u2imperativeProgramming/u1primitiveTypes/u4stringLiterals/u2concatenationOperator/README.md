@@ -1,31 +1,17 @@
-# Operador de Concatenación
+# [Operador de Concatenación](../u2concatenationOperator/README.md)
+
+
+**Sintaxis:**
+
+  * `<expresion>` ::= `<expresion>` + `<expresion>`
+
+**Semántica:**
+
+  * +, operador binario que, dados dos string, devuelve otra cadena de caracteres con los primeros caracteres iguales al primer string y los últimos caracteres iguales a los del segundo string
 
 
 
-
-
-
-| Concatenación | *java* |
-| --- | --- |
-| 
-* **Sintaxis**:
-
-
-	+ *<expresion>* **::=** *<expresion> **+** <expresion>*
-
-* **Semántica**:
-
-
-	+ **+**, operador binario que, dados dos *string*, **devuelve otra cadena de caracteres con los primeros caracteres iguales al primer *string* y los últimos caracteres iguales a los del segundo *string***
-
-
-
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a1\_tipos.a2\_string.a2\_concatenacion;
-
+```java
 class App {
 
   public static void main(String[] args) {
@@ -41,8 +27,7 @@ class App {
 ```
 
 
- |
-
+ 
 
 ---
 

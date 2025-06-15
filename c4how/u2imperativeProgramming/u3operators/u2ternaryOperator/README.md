@@ -27,8 +27,7 @@
  | 
 
 
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a3\_operadores.a3\_ternario;
+```java
 
 class App {
 

@@ -1,37 +1,21 @@
-# Tipo char
-
-
-##### Literales de tipo *char*
+# [Tipo char](../u2charType/README.md)
 
 
 
 
+**Sintaxis:**
+
+- `<expresion>` ::= `<expresion>` `<operadorRelacional>` `<expresion>`
+
+- `<operadorRelacional>` ::= ( `==` | `!=` )
+
+**Semántica:** dados dos `char`, devuelve un valor de tipo `boolean` correspondiente a la relación de cada operador según la exacta igualdad de los caracteres
+
+- `==`, igualdad en valor; `!=`, desigualdad en valor;
 
 
 
-| char | *java* |
-| --- | --- |
-| 
-* *<literal>* **::=** *<valorCaracter>*
-* <valorCaracter> **::=** **'** *<caracter>* **'** **|** **'** **\** *<caracter>* **'**
-
-
-	+ *<caracter>* son los caracteres imprimibles del código [ASCII](https://cs.stanford.edu/people/miles/iso8859.html) (espacio, letras, dígitos, símbolos de puntuación, …​)
-	+ los caracteres "escapados" son aquellos que no son imprimibles (salto de línea, …​) o con sobrecarga de significados (apostrofe para comienzo de cadena, …​) que deben precederse del caracter escape: '\n', '\t', …​ '\"', '\'', '\"' y '\\',
-	
-	
-		- *\uXXXX* para caracteres de [UTF-16 de Unicode](https://asecuritysite.com/coding/asc2)
-		
-		
-			* donde X será un valor hexadecimal: *[0-9AF]*
-
-
-
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a1\_tipos.a4\_char.a1\_valores;
+```java
 
 class App {
 

@@ -1,19 +1,13 @@
-# Operadores de Bits
+# [Operadores de Bits](./README.md)
 
 
-
-
-
-
-| Sintaxis | *java* |
-| --- | --- |
-| 
+ 
 * **Sintaxis**:
 
 
-	+ *<expresion>* **::=** *<expresion>* *<operadorBit>* *<expresion>*
-	+ *<operadorBit>* **::=** **&** **|** **|** **|** **^** **|** **~** **|** **<<** **|** **>>** **|** **>>>**
-
+	+ *`<expresion>`* **::=** *`<expresion>`* *`<operadorBit>`* *`<expresion>`*
+	+ *`<operadorBit>`* **::=** **&** **|** **|** **|** **^** **|** **~** **|** **<<** **|** **>>** **|** **>>>**
+<br><br>
 * **Semántica**:
 
 
@@ -27,12 +21,7 @@
 
 
 
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a3\_operadores.a1\_bits;
-
+```java
 class App {
     
     public static void main(String[] args) {
@@ -43,22 +32,15 @@ class App {
 ```
 
 
- |
 
 
+**Aplicaciones** 
 
 
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
 * [4-numberingSystems/4-decimalToBinary/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/4-numberingSystems.md#4-decimaltobinaryv0) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a4_numberingSystems/a4_decimalToBinary/v0_0/App.java)
 
 
- |  |  |
+
 
 
 ---

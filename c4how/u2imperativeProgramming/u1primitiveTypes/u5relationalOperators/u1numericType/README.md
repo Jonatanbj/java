@@ -1,31 +1,23 @@
-# Tipo numerico
+# [Tipo numerico](../u1numericType/)
 
 
 
 
 
 
-| Operadores binarios infijos | *java* |
-| --- | --- |
-| 
-* **Sintaxis**:
+**Sintaxis:**
 
+- `<expresion>` ::= `<expresion>` `<operadorRelacional>` `<expresion>`
 
-	+ *<expresion>* **::=** *<expresion> <operadorRelacional> <expresion>*
-	+ *<operadorRelacional>* **::=** **(** **==** **|** **!=** **|** **)**
+- `<operadorRelacional>` ::= ( `==` | `!=` | `<` | `⇐` | `>` | `>=` )
 
-* **Semántica**: dados dos valores del mismo tipo numérico, devuelve un valor de tipo *boolean* correspondiente a la relación de cada operador según el orden de los números reales
+**Semántica:** dados dos valores del mismo tipo numérico, devuelve un valor de tipo boolean correspondiente a la relación de cada operador según el orden de los números reales
 
-
-	+ **==**, igualdad en valor; **!=**, desigualdad en valor; **<**, menor; **⇐**, menor o igual; **>**, mayor; **>=**, mayor o igual
+- `==`, igualdad en valor; `!=`, desigualdad en valor; `<`, menor; `⇐`, menor o igual; `>`, mayor; `>=`, mayor o igual
 
 
 
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a1\_tipos.a4\_relacional.a2\_numericos;
+```java
 
 class App {
 
@@ -42,7 +34,6 @@ class App {
 ```
 
 
- |
 
 
 ---

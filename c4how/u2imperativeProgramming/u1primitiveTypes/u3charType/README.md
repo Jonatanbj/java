@@ -1,4 +1,4 @@
-# Tipo char
+# [Tipo char](../u3charType/README.md)
 
 - ## [Literales de tipo char](u1charLiterals/README.md)
 
