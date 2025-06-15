@@ -1,20 +1,14 @@
-# Operadores de Incremento y Decremento
+# [Operadores de Incremento y Decremento](../u4incrementDecrementOperators/README.md)
 
 
 
-
-
-
-| Operador de incremento/decremento | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<sentencia>* **::=** *<expresion>* **;**
-	+ *<expresion>* **::=** **(** *<identificador>* *<operadorIncrementoDecremento>* **|** *<operadorIncrementoDecremento>* *<identificador>* **)**
-	+ *<operadorIncrementoDecremento>* **::=** **++** **|** **--**
-
+	+ *`<sentencia>`* **::=** *`<expresion>`* **;**
+	+ *`<expresion>`* **::=** **(** *`<identificador>`* *`<operadorIncrementoDecremento>`* **|** *`<operadorIncrementoDecremento>`* *`<identificador>`* **)**
+	+ *`<operadorIncrementoDecremento>`* **::=** **++** **|** **--**
+<br><br>
 * **Semántica**:
 
 
@@ -22,13 +16,9 @@
 	+ pero la expresión devuelve el valor de la variable **incrementada/decrementada** o o el valor **previo al incremento/decremento** dependiendo de si el operador es prefijo o postfijo respectivamente, en cualquier caso **modifica el valor de la variable**
 	+ **No recomendado** como parte de otra expresión, con **efectos laterales**
 
+<br><br>
 
-
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a3\_operadores.a5\_incrementoDecremento;
+```java
 
 class App {
 
@@ -50,21 +40,10 @@ class App {
 }
 ```
 
-
- |
-
+<br><br>
 
 
 
-
-
-
-
-| **Aplicaciones** |
-| --- |
-
-
----
 
 [Volver al nivel superior](../README.md)
 

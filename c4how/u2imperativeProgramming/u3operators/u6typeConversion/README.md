@@ -1,30 +1,9 @@
 # Conversión de Tipos
 
 
-
-
-
-
-
-| 
-* **Promoción**: transforman un dato de un tipo a otro con el mismo o mayor espacio en memoria para almacenar información;
-* **Contracción**: transforman un dato de un tipo a otro con menor espacio en memoria para almacenar información con la consecuente **posible pérdida de información**;
-
-
- | 
-
-conversion
-
- | 
-* **Conversión implícita**:
-
-
-	+ por promoción cuando se combinan dos operandos de distinto tipo, se convierte el de menor precisión al de mayor precisión;
-	+ por promoción cuando se asigna un valor de un tipo de menor precisión a una variable de mayor precisión;
-
-
-
- |
+| Concepto | Codigo UNICODE. | 
+| --- | --- | 
+| **Promoción:** transforman un dato de un tipo a otro con el mismo o mayor espacio en memoria para almacenar información; <br> <br> **Contracción :** Transforman un dato de un tipo a otro con menor espacio en memoria, lo que puede con llevar **posible pérdida de información**. <br> <br> **Conversión implícita:** Por promoción al combinar operandos de distinto tipo: <br>  + se convierte el de menor precisión al de mayor precisión. <br>   Por promoción al asignar un valor de tipo de menor precisión a una variable de mayor precisión. |  ![Descripción de la imagen](/images/conversion.png)  | 
 
 
 
@@ -32,15 +11,16 @@ conversion
 
 
 
-| - **Conversión explícita**: | *java* |
-| --- | --- |
+
+
+
 | 
 * **Sintaxis**:
 
 
-	+ *<expresion>* **::=** **(** <tipo> **)** *<expresion>*
-	+ \_<tipo> **::=** **byte** **|** **short** **|** **int** **|** **long** **|** **float** **|** **double** **|** **char** **|** **boolean**
-
+	+ *`<expresion>`* **::=** **(** `<tipo>` **)** *`<expresion>`*
+	+ \_`<tipo>` **::=** **byte** **|** **short** **|** **int** **|** **long** **|** **float** **|** **double** **|** **char** **|** **boolean**
+<br><br>
 * **Semántica**:
 
 
@@ -48,11 +28,10 @@ conversion
 
 
 
- | 
+<br><br>
 
 
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a3\_operadores.a2\_conversion;
+```java
 
 class App {
 
@@ -72,10 +51,8 @@ class App {
 ```
 
 
- |
-
 
 ---
 
 [Volver al nivel superior](../README.md)
-[Operadores de Bits](u1bitwiseOperators/README.md)
+[Siguiente sección: Expresiones](/c4how/u2imperativeProgramming/u4expressions/README.md)

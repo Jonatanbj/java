@@ -1,20 +1,14 @@
-# Sentencias Alternativas
+# [Sentencias Alternativas](/c4how/u3structuredProgramming/u1conditionalStatements/README.md)
 
 
-
-
-
-
-| Sentencia Alternativa | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<sentencia>* **::=** *<sentenciaAlternativa>* **|** *<sentenciaAlternativaMultiple>*
-	+ *<sentenciaAlternativa>* **::=** **if (** *<expresion>* **)** *<sentencia>* **[** **else** *<sentencia>* **]** **;**
-
-* *<sentenciaAlternativaMultiple>* **::=** **switch (** *<expresion>* **) {** **{** **case** *<literal>* **:** **{** *<sentencia>* **|** **break;** **}** **}** **[** **default:** **{** *<sentencia>* **|** **break;** **}** **]** **}** **;**
+	+ *`<sentencia>`* **::=** *`<sentenciaAlternativa>`* **|** *`<sentenciaAlternativaMultiple>`*
+	+ *`<sentenciaAlternativa>`* **::=** **if (** *`<expresion>`* **)** *`<sentencia>`* **[** **else** *`<sentencia>`* **]** **;**
+<br><br>
+* *`<sentenciaAlternativaMultiple>`* **::=** **switch (** *`<expresion>`* **) {** **{** **case** *`<literal>`* **:** **{** *`<sentencia>`* **|** **break;** **}** **}** **[** **default:** **{** *`<sentencia>`* **|** **break;** **}** **]** **}** **;**
+ <br><br>
 * **Semántica**:
 
 
@@ -29,13 +23,10 @@
 			* **No recomendado en ninguna otra situación**
 
 
+ <br><br>
 
- | 
 
-
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a1\_alternativa;
-
+```java
 class App {
     
     public static void main(String[] args) {
@@ -70,32 +61,15 @@ class App {
 ```
 
 
- |
+ <br><br>
+
+|     | **Aplicaciones** |    |
+| --- |--- |--- |
+| [0-time/2-sibilings/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/0-time.md#2-sibilingsv0) : [*v0.1*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a2_sibilings/v0_1/App.java) - [v0.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a2_sibilings/v0_2/App.java) |[3-numbers/3-even/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#3-even) : [*v0.05*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_05/App.java) - [v0.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_2/App.java) - [v0.3](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_3/App.java) - [v0.4](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_4/App.java) |[3-numbers/4-absoluteValue/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#4-absolutevalue) : [*v0.2*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a4_absoluteValue/v0_2/App.java) - [v0.3](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a4_absoluteValue/v0_3/App.java) |
+ 
 
 
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
-* [0-time/2-sibilings/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/0-time.md#2-sibilingsv0) : [*v0.1*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a2_sibilings/v0_1/App.java) - [v0.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a2_sibilings/v0_2/App.java)
-
-
- | 
-* [3-numbers/3-even/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#3-even) : [*v0.05*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_05/App.java) - [v0.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_2/App.java) - [v0.3](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_3/App.java) - [v0.4](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a3_even/v0_4/App.java)
-
-
- | 
-* [3-numbers/4-absoluteValue/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#4-absolutevalue) : [*v0.2*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a4_absoluteValue/v0_2/App.java) - [v0.3](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a4_absoluteValue/v0_3/App.java)
-
-
- |
-
-
+ <br><br>
 ---
 
 [Volver al nivel superior](../README.md)

@@ -1,13 +1,10 @@
-# Precedencia y asociatividad
+# [Precedencia y asociatividad](../u1precedenceAssociativity/README.md)
 
 
 
 
 
 
-| Expresiones | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
@@ -16,7 +13,7 @@
 	
 		- de operandos (literales, identifcadores de variables y constantes)
 		- y operadores (prefijos, infijos, sufijos y ternarios)
-
+<br><br>
 * **Semántica**:
 
 
@@ -28,12 +25,10 @@
 		- estas reglas **no determinan el orden de evaluación**
 
 
+<br><br>
 
- | 
 
-
-```
-package es.usantatecla.a0\_itinerario.a1\_imperativa.a4\_expresiones.a1\_asociatividad;
+```java
 
 class App {
 
@@ -49,10 +44,29 @@ class App {
 }
 ```
 
+<br><br>
+imnagen original 
+# [TablaPrecedencia](images/tablaPrecedencia.webp)
 
- |
+| Precedencia | Operador                   | Tipo                                                                 | Asociatividad       |
+|-------------|----------------------------|----------------------------------------------------------------------|---------------------|
+| 15          | () [] .                    | Paréntesis, subíndice de arreglo, selección de miembro               | Izquierda a derecha |
+| 14          | ++ --                      | Incremento y decremento postfijo                                     | Derecha a izquierda |
+| 13          | ++ -- + - ! ~ (tipo)       | Prefijo, unario, conversión de tipo                                  | Derecha a izquierda |
+| 12          | * / %                      | Multiplicación, división, módulo                                     | Izquierda a derecha |
+| 11          | + -                        | Suma y resta                                                         | Izquierda a derecha |
+| 10          | << >> >>>                  | Desplazamientos a nivel de bits                                      | Izquierda a derecha |
+| 9           | < <= > >= instanceof       | Relacionales y prueba de tipo                                        | Izquierda a derecha |
+| 8           | == !=                      | Igualdad y desigualdad                                               | Izquierda a derecha |
+| 7           | &                          | AND a nivel de bits                                                  | Izquierda a derecha |
+| 6           | ^                          | XOR a nivel de bits                                                  | Izquierda a derecha |
+| 5           | \|                         | OR a nivel de bits                                                   | Izquierda a derecha |
+| 4           | &&                         | AND lógico                                                           | Izquierda a derecha |
+| 3           | \|\|                       | OR lógico                                                            | Izquierda a derecha |
+| 2           | ? :                        | Condicional ternario                                                 | Derecha a izquierda |
+| 1           | = += -= *= /= %=           | Asignación y asignaciones compuestas                                 | Derecha a izquierda |
 
-
+_Mayor número indica mayor precedencia._
 
 
 ![tablaPrecedencia](images/tablaPrecedencia.webp)

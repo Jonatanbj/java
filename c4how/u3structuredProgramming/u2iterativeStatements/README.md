@@ -1,22 +1,16 @@
-# Sentencias Iterativas
+# [Sentencias Iterativas](../u2iterativeStatements/README.md)
 
 
 
-
-
-
-| Sentencia Iterativa | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<sentencia>* **::=** *<sentenciaIterativa>*
-	+ *<sentenciaIterativa>* **::=** *<sentenciaWhile>* **|** *<sentenciaDoWhile>* **|** *<sentenciaFor>*
-	+ *<sentenciaWhile>* **::=** **while** **(** *<expresion>* **)** *<sentencia>*
-	+ *<sentenciaDoWhile>* **::=** **do** **{** *<sentencia>* **}** **while** **(** *<expresion>* **)** **;**
-	+ *<sentenciaFor>* **::=** **for** **(** **[** *<sentenciaLet>* **]** **[** *<expresion>* **]** **;** **[** *<expresion>* **]** **)** *<sentencia>*
-
+	+ *`<sentencia>`* **::=** *`<sentenciaIterativa>`*
+	+ *`<sentenciaIterativa>`* **::=** *`<sentenciaWhile>`* **|** *`<sentenciaDoWhile>`* **|** *`<sentenciaFor>`*
+	+ *`<sentenciaWhile>`* **::=** **while** **(** *`<expresion>`* **)** *`<sentencia>`*
+	+ *`<sentenciaDoWhile>`* **::=** **do** **{** *`<sentencia>`* **}** **while** **(** *`<expresion>`* **)** **;**
+	+ *`<sentenciaFor>`* **::=** **for** **(** **[** *`<sentenciaLet>`* **]** **[** *`<expresion>`* **]** **;** **[** *`<expresion>`* **]** **)** *`<sentencia>`*
+<br><br>
 * **Semántica**:
 
 
@@ -29,12 +23,11 @@
 		- mientras se evalua a cierto la primera expresión, se ejecuta la sentencia y se evalúa la segunda expresión
 
 
+<br><br>
 
- | 
 
 
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a2\_iterativa;
+```java
 
 public class App {
 
@@ -57,30 +50,15 @@ public class App {
 ```
 
 
- |
 
 
 
 
 
+| **Aplicaciones** |--- |--- |
+| --- |--- |--- |
+| [4-validation](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#4-validationv0) - [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a4_validation/v0_0/App.adoc)|[3-numbers/0-multiplicationTable/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#0-multiplicationtable) : [*v0.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a0_multiplicationTable/v0_0/App.java) - [v0.4](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a0_multiplicationTable/v0_4/App.java)|[3-numbers/9-factorial/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#9-factorialv0) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a9_factorial/v0_0/App.java)|
 
-
-
-| **Aplicaciones** |
-| --- |
-| 
-* [4-validation](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#4-validationv0) - [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a4_validation/v0_0/App.adoc)
-
-
- | 
-* [3-numbers/0-multiplicationTable/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#0-multiplicationtable) : [*v0.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a0_multiplicationTable/v0_0/App.java) - [v0.4](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a0_multiplicationTable/v0_4/App.java)
-
-
- | 
-* [3-numbers/9-factorial/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#9-factorialv0) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a9_factorial/v0_0/App.java)
-
-
- |
 
 
 ---

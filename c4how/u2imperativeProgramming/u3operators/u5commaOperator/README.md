@@ -1,18 +1,15 @@
-# Operador Coma
+# [Operador Coma](../u5commaOperator/README.md)
 
 
 
 
 
 
-| Operador coma | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<expresion>* **::=** *<expresión>* **{** **,** *<expresión>* **}** **+**
-
+	+ *`<expresion>`* **::=** *`<expresión>`* **{** **,** *`<expresión>`* **}** **+**
+<br><zbr>
 * **Semántica**:
 
 
@@ -21,15 +18,14 @@
 
 
 
- | 
+<br><zbr>
 
-
-```
+```java
 Unresolved directive in ust4_how/ust1_imperative/ust3_operators/ust5_comma.adoc - include::../../../../../../../src/0-itinerario/1-imperativa/4-expresiones/3-compuesta/app.adoc[]
 ```
 
 
- |
+<br><zbr>
 
 
 ---
