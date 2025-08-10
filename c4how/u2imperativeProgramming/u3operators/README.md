@@ -7,9 +7,6 @@
 - #### [Operador Coma](u5commaOperator/README.md)
 - #### [Conversión de Tipos](u6typeConversion/README.md)
 
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Operadores de Bits](u1bitwiseOperators/README.md)
+[Anterior](/c4how/u2imperativeProgramming/u2simpleStatements/u5constantDeclaration/README.md) | [Subir nivel](../README.md) | [Siguiente](u1bitwiseOperators/README.md)

@@ -1,22 +1,15 @@
 # [Operadores de Acumulación](../u3compoundOperators/README.md)
 
-
-
 * **Sintaxis**:
-
 
 	+ *`<sentencia>`* **::=** *`<expresion>`* **;**
 	+ *`<expresion>`* **::=** *`<identificador>`* *`<operadorAcumulacion>`* *`<expresion>`*
 	+ *`<operadorAcumulacion>`* **::=** **+=** **|** **-=** **|** **\**=* **|** **\***=* **|** **/=** **|** **%=** **|** **&=** **|** **|=** **|** **^=** **|** **<⇐** **|** **>>=** **|** **>>>=**
 <br><br>
 * **Semántica**:
-
-
 	+ Abreviatura de: *<identificador>* **=** *<identificador>* *<operador>* *<expresion>*
 	+ **No recomendado como parte de otra expresión**, con **efectos laterales**, de tal forma que la evaluación de la nueva evaluación de la misma expresión arroja distintos resultados
-
-
-<br><br>
+<br>
 
 ```java
 class App {
@@ -41,9 +34,7 @@ class App {
     }
 }
 ```
-
-<br><br>
-
+<br>
 
 | **Aplicaciones** |--- |
 | --- |--- |
@@ -52,6 +43,6 @@ class App {
 
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Operadores de Incremento y Decremento](../u4incrementDecrementOperators/README.md)
+
+[Anterior](../u2ternaryOperator/README.md) | [Subir nivel](../README.md) | [Siguiente](../u4incrementDecrementOperators/README.md)

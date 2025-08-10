@@ -148,3 +148,6 @@ class Derivada extends Base  {
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Clasificación de Excepciones](../u5exceptionClassification/README.md)
+
+
+[Anterior](../u3exceptionDelegation/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5exceptionClassification/README.md)

@@ -7,6 +7,5 @@
 
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Tipo char](../u3charType/README.md)
+[Anterior](../u1numericTypes/u3binaryOperators/README.md) | [Subir nivel](../README.md) | [Siguiente](u1booleanValues/README.md)

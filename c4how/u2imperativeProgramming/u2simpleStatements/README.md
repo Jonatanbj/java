@@ -9,6 +9,4 @@
 
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operadores](../u3operators/README.md)
+[Anterior](/c4how/u2imperativeProgramming/u1primitiveTypes/u5relationalOperators/u4stringType/README.md) | [Subir nivel](../README.md) | [Siguiente](u1dataOutput/README.md)

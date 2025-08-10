@@ -31,12 +31,6 @@ class App {
   }
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
+[Anterior](../u2unaryOperators/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u2imperativeProgramming/u1primitiveTypes/u2booleanType/README.md)

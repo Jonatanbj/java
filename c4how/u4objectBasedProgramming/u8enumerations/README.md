@@ -164,3 +164,6 @@ class App {
 
 [Volver al nivel superior](../README.md)
 
+
+
+[Anterior](../u7stringsManipulation/README.md) | [Subir nivel](../README.md) | [Siguiente](../u1publicViewOfClasses/README.md)

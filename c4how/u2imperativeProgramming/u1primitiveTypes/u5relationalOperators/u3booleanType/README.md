@@ -2,13 +2,13 @@
 
 **Sintaxis:**
 
-`<expresion>` ::= `<expresion>` `<operadorRelacional>` `<expresion>`
+- `<expresion>` ::= `<expresion>` `<operadorRelacional>` `<expresion>`
 
-`<operadorRelacional>` ::= ( `==` | `!=` )
+- `<operadorRelacional>` ::= ( `==` | `!=` )
 
-**Semántica:** dados dos valores de tipo `boolean`, devuelve un valor de tipo `boolean` correspondiente a la igualdad o no de los respectivos operadores
-
-`==`, igualdad en valor; `!=`, desigualdad en valor;
+**Semántica:** 
+- dados dos valores de tipo `boolean`, devuelve un valor de tipo `boolean` correspondiente a la igualdad o no de los respectivos operadores
+  - `==`, igualdad en valor; `!=`, desigualdad en valor;
 
 ```java
 class App {
@@ -22,6 +22,4 @@ class App {
 ```
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Tipo string](../u4stringType/README.md)
+[Anterior](../u2charType/README.md) | [Subir nivel](../README.md) | [Siguiente](../u4stringType/README.md)

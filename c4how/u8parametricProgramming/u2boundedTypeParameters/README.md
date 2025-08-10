@@ -56,3 +56,6 @@ interface Comparable<T> {
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Parámetros Comodines](../u3wildcardParameters/README.md)
+
+
+[Anterior](../u1genericClasses/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3wildcardParameters/README.md)

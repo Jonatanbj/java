@@ -141,3 +141,6 @@ abstract class Solido {
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Herencia por Implementación](../u4inheritanceByImplementation/README.md)
+
+
+[Anterior](../u2inheritanceByExtension/README.md) | [Subir nivel](../README.md) | [Siguiente](../u4inheritanceByImplementation/README.md)

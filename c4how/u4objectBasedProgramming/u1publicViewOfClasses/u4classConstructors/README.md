@@ -1,13 +1,6 @@
-# Constructores de la Clase
+# [Constructores de la Clase](/java/c4how/u4objectBasedProgramming/u1publicViewOfClasses/u4classConstructors/README.md)
 
 
-
-
-
-
-| **Descripción** | **Ejemplo** |
-| --- | --- |
-| 
 * Son **métodos que reúnen las tareas de inicialización**, **no construyen**, y se lanzan implícimatemente en la construcción de objetos. Cumplen:
 
 
@@ -15,12 +8,9 @@
 	+ deben coincidir su nombre con el de la clase;
 	+ no se pueden lanzar mensajes que se correspondan con los constructores de la clase.\_
 
+<br>
 
-
- | 
-
-
-```
+```java
 class Interval {
   public Interval(double min, double max) {...}
   public Interval(double max) {...}
@@ -30,13 +20,6 @@ class Interval {
   ...
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Destructores de la Clase](../u5classDestructors/README.md)
+[Anterior](../u3methodOverloading/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5classDestructors//README.md)

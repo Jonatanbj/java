@@ -1,9 +1,4 @@
-# [Tipo numerico](../u1numericType/)
-
-
-
-
-
+# [Tipo numerico](../u1numericType/README.md)
 
 **Sintaxis:**
 
@@ -14,8 +9,6 @@
 **Semántica:** dados dos valores del mismo tipo numérico, devuelve un valor de tipo boolean correspondiente a la relación de cada operador según el orden de los números reales
 
 - `==`, igualdad en valor; `!=`, desigualdad en valor; `<`, menor; `⇐`, menor o igual; `>`, mayor; `>=`, mayor o igual
-
-
 
 ```java
 
@@ -32,12 +25,5 @@ class App {
     }
 }
 ```
-
-
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Tipo char](../u2charType/README.md)
+[Anterior](../u1numericType/README.md) | [Subir nivel](../README.md) | [Siguiente](../u2charType/README.md)

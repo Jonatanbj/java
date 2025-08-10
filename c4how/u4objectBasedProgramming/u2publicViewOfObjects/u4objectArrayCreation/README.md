@@ -1,74 +1,30 @@
-# Creación de vectores de objetos
+# [Creación de vectores de objetos](/java/c4how/u4objectBasedProgramming/u2publicViewOfObjects/u4objectArrayCreation/README.md)
+
+**new** es operador unario prefijo cuyo operando es un vector de referencias a objetos de una clase y devuelve la dirección de memoria donde se ha reservado el espacio para dicho vector; <br> ![Sinstaxisg](/images/SintaxisG.jpg) <br>
+- donde la expresión debe ser de tipo entero y determina la longitud de referencias del vector inicializadas a **null**; 
+ 
 
 
+**Ejemplo** 
 
-
-
-
-
-|  | **Sintaxis g** | **Ejemplo** |
-| --- | --- | --- |
-| 
-**new** es operador unario prefijo cuyo operando es un vector de referencias a objetos de una clase y devuelve la dirección de memoria donde se ha reservado el espacio para dicho vector;
- | 
-
-height32
-
-
-
-* donde la expresión debe ser de tipo entero y determina la longitud de referencias del vector inicializadas a **null**;
-
-
- | 
-
-
-```
+```java
 new Intervalo[100]
 ```
 
+**Sintaxis h** 
 
- |
+new `<Clase>`[] {`<expresion>`,..., `<expresion>`} <br><br> 
+- donde cada expresión debe ser una dirección a un objeto de la clase que inicializan las referencias del vector creado de longitud igual al número de expresiones;
 
-
-
-
-
-
-
-| **Sintaxis h** | **Ejemplo** |
-| --- | --- |
-| 
+**Ejemplo** 
 
 
-```
-new <Clase>[] {<expresion>,..., <expresion>}
-```
-
-
-
-
-* donde cada expresión debe ser una dirección a un objeto de la clase que inicializan las referencias del vector creado de longitud igual al número de expresiones;
-
-
- | 
-
-
-```
+```java
    Intervalo intervalo = new Intervalo();
 new Intervalo[] {new Intervalo(), null, intervalo}
 ```
 
-
-
-
-
-height32
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Referencia a un vector de referencias a objetos](../u5referenceArrayCreation/README.md)
+[Anterior](../u3messagePassing/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5referenceArrayCreation/README.md)

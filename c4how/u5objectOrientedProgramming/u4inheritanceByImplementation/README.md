@@ -104,3 +104,6 @@ interface <interfazDerivado>
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Limitaciones de la Herencia](../u5inheritanceLimitations/README.md)
+
+
+[Anterior](../u3abstractClasses/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5inheritanceLimitations/README.md)

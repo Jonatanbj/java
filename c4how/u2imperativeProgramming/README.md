@@ -11,6 +11,5 @@
 | **Operadores relacionales**, operadores de igualdad, desigualdad y ordenacion | **Sentencia de asignación** | **Operadores con efectos laterales:** acumulación e incremento/decremente y coma |  |
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Programación Estructurada](../u3structuredProgramming/README.md)
+[Anterior](../u1program/README.md) | [Subir nivel](../README.md) | [Siguiente](./u1primitiveTypes/README.md)

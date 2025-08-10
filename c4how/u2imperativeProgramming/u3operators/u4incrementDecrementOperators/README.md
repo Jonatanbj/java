@@ -1,9 +1,6 @@
 # [Operadores de Incremento y Decremento](../u4incrementDecrementOperators/README.md)
 
-
-
 * **Sintaxis**:
-
 
 	+ *`<sentencia>`* **::=** *`<expresion>`* **;**
 	+ *`<expresion>`* **::=** **(** *`<identificador>`* *`<operadorIncrementoDecremento>`* **|** *`<operadorIncrementoDecremento>`* *`<identificador>`* **)**
@@ -16,7 +13,7 @@
 	+ pero la expresión devuelve el valor de la variable **incrementada/decrementada** o o el valor **previo al incremento/decremento** dependiendo de si el operador es prefijo o postfijo respectivamente, en cualquier caso **modifica el valor de la variable**
 	+ **No recomendado** como parte de otra expresión, con **efectos laterales**
 
-<br><br>
+<br>
 
 ```java
 
@@ -39,12 +36,6 @@ class App {
     }
 }
 ```
+<br>
 
-<br><br>
-
-
-
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operador Coma](../u5commaOperator/README.md)
+[Anterior](../u3compoundOperators/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5commaOperator/README.md)

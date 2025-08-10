@@ -1,15 +1,14 @@
 # [Operadores unarios](../u2unaryOperators/README.md)
 
+### Sintaxis
 
+- *`<expresion>`** ::= `<operadorAritmeticoUnario>` `<expresion>`
+- *`<operadorAritmeticoUnario>`** ::= - | +
 
+### Semántica
 
-
-
-| **Concepto**       | **Descripción**                                                                                                                                                                                                 |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sintaxis**        | + *<expresion>* **::=** *<operadorAritmeticoUnario>* *<expresion>*<br>+ *<operadorAritmeticoUnario* **::=** **-** **|** **+**                                                                                   |
-| **Semántica**       | + Operan sobre valores numéricos del mismo tipo, y devuelven un valor del tipo de los operandos (menos *byte, short* y *char*, que devuelven *int*).<br>    - **+**, identidad, devuelve el mismo valor numérico dado.<br>    - **-**, opuesto, devuelve el valor con cambio de signo respecto al valor numérico dado. |
-
+- **+**: Identidad. Devuelve el mismo valor numérico dado.
+- **-**: Opuesto. Devuelve el valor con el signo cambiado respecto al valor numérico dado.
 
 ```jaVA
 class App {
@@ -21,13 +20,6 @@ class App {
   }
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operadores binarios](../u3binaryOperators/README.md)
+[Anterior](../u1literals/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3binaryOperators/README.md)

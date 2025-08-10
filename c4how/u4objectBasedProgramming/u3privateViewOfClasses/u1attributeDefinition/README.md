@@ -1,24 +1,11 @@
-# Definición de atributos
+# [Definición de atributos](../README.md)
 
-
-
-
-
-
-
-| 
 * Se **declaran variables y/o constantes de tipos primitivos, referencias a objetos o vectores** de éstos
 * anteponiendo la palabra **private**
 
+   + En <span style="color: darkred;">cualquier punto de la implementación</span> de la clase pero lo lógico es <span style="color: green;">al principio de la declaración de la clase</span>
 
-	+ En cualquer punto de la implementación de la clase pero lo lógico es al principio de la declaración de la clase
-
-
-
- | 
-
-
-```
+```java
 class <class> {
    private <declaration>
    private <declaration>
@@ -26,23 +13,12 @@ class <class> {
 }
 ```
 
-
- | 
-
-
-```
+```java
 class Interval {
    private double min;
    private double max;
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Definición de constructores](../u2constructorDefinition/README.md)
+[Anterior](./README.md) | [Subir nivel](../README.md) | [Siguiente](../u2constructorDefinition/README.md)

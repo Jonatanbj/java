@@ -1,25 +1,16 @@
-# Sobrecarga de Métodos de la Clase
+# [Sobrecarga de Métodos de la Clase](/java/c4how/u4objectBasedProgramming/u1publicViewOfClasses/u3methodOverloading/README.md)
 
 
 
-
-
-
-| **Descripción** | **Ejemplo** |
-| --- | --- |
-| 
 * Varios métodos pueden tener el mismo nombre con las siguientes restricciones:
 
 
 	+ **si están en la misma clase**, deben **diferenciarse en el número o tipo de parámetros comparados dos a dos**;
 	+ **si están en distintas clases**, no existe restricción;
 
+<br>
 
-
- | 
-
-
-```
+```java
 class Interval {
   public Interval(double min, double max) {...}
   public Interval(double max) {...}
@@ -37,13 +28,6 @@ class Coordinate {
   ...
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Constructores de la Clase](../u4classConstructors/README.md)
+[Anterior](../u2methodSignatures/) | [Subir nivel](../README.md) | [Siguiente](../u4classConstructors/README.md)

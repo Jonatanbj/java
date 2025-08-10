@@ -57,3 +57,6 @@
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Especialización por redefinición](../u3specializationByRedefinition/README.md)
+
+
+[Anterior](../u1specializationByAddition/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3specializationByRedefinition/README.md)

@@ -2,13 +2,20 @@
 
 
 
+### Sintaxis
 
+- *`<literal>`** ::= `<valorNumerico>`  
+- *`<valorNumerico>`** ::= `<parteEntera>` **[** `<parteDecimal>` **]** **[** `<exponente>` **]**  
+- *`<parteEntera>`** ::= **[** `0b` **|** `0x` **]** `<signo>` `[0-9]+`  
+- *`<parteDecimal>`** ::= `.` `[0-9]+`  
+- *`<exponente>`** ::= `e` `<signo>` `[0-9]+`  
+- *`<signo>`** ::= **[** `+` **|** `-` **]**
 
+### Semántica
 
-| **Aspecto**   | **Descripción**                                                                                                                                                                                                                                                                                                                                                   |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sintaxis**  | - *<literal>* **::=** *<valorNumerico>* <br> - *<valorNumerico>* **::=** *<parteEntera>* **[** *<parteDecimal>* **]** **[** *<exponente>* **]** <br> - *<parteEntera>* **::=** **[** **0b** **|** **0x** **]** <br> - *<signo>* **[0.9]** **+** <br> - *<parteDecimal>* **::=** **.[0.9]** **+** <br> - *<exponente>* **::=** **e** *<signo>* **[0-9]** **+** <br> - *<signo>* **::=** **[** **+** **|** **-** **]** |
-| **Semántica** | - Prefijos **0b** y **0x** son respectivamente para notación binaria y hexadecimal. <br> - Todos los literales enteros serán de tipo ***int***. <br> - Todos los literales con decimales o notación científica serán de tipo ***double***.
+- Los prefijos **`0b`** y **`0x`** indican notación binaria y hexadecimal, respectivamente.  
+- Todos los literales enteros serán de tipo **`int`**.  
+- Todos los literales con decimales o notación científica serán de tipo **`double`**.
 
 
 
@@ -29,12 +36,6 @@ class App {
     console.writeln(0xA4); // 164
   }
 ``` 
-
-
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operadores unarios](../u2unaryOperators/README.md)
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2unaryOperators/README.md)

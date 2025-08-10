@@ -28,6 +28,7 @@
 
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: ¿Para qué?](../c3forWhat/README.md)
+
+
+[Anterior](../c1why/README.md) | [Subir nivel](README.md) | [Siguiente](../c3forWhat/README.md)

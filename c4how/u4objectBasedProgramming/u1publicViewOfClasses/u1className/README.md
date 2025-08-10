@@ -1,45 +1,13 @@
-# Nombre de la Clase
+# [Nombre de la Clase](/java/c4how/u4objectBasedProgramming/u1publicViewOfClasses/u1className/README.md)
 
 
+|Sintaxis|Ejemplo|Ejemplo|
+|---|---|---|
+|class  `<NombreClase>` { <br> }|class  **Interval** { <br> }|class  **Cordinate**  { <br> }|
 
-
-
-
-
-| **Sintaxis** | *Ejemplo* |
-| --- | --- |
-| 
-
-
-```
-class  <NombreClase> {
-}
-```
-
-
- | 
-
-
-```
-class Interval {
-}
-```
-
-
- | 
-
-
-```
-class Coordinate {
-}
-```
-
-
- |
 
 
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Cabecera de Métodos de la Clase](../u2methodSignatures/README.md)
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2methodSignatures/README.md)

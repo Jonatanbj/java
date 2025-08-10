@@ -1,16 +1,7 @@
 # [¿Por qué?](../c1why/README.md)
 
 
-
-
 ![contexto](/images/contexto.png)
-
-
-
-
-
-
-
 
 
 | Lenguajes Compilados | Lenguajes Interpretados |
@@ -24,13 +15,4 @@
 
 
 
-
-
-
-
-
-
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: ¿Qué?](../c2what/README.md)
+[Anterior](README.md) | [Subir nivel](README.md) | [Siguiente](../c2what/README.md)

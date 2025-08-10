@@ -1,19 +1,12 @@
-# Tablas
+# [Tablas](/java/c4how/u3structuredProgramming/u4tables/README.md)
 
 
-
-
-
-
-| Creación | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<expresion>* **::=** **[** **new** *<tipo>* **[** **]** **+** **]** **{** **[** *<expresion>* **{** **,** *<expresion>* **}** **]** **}** **|** **new** *<tipo>* **[** *<expresion>* **]** **+** **[** **]** *****
-	+ *<sentenciaFor>* **::=** **for** **(** *<tipo>* *<identificador>* **:** *<expresión>* **)** *<sentencia>*
-
+	+ *`<expresion>`* **::=** **[** **new** *`<tipo>`* **[** **]** **+** **]** **{** **[** *`<expresion>`* **{** **,** *`<expresion>`* **}** **]** **}** **|** **new** *`<tipo>`* **[** *`<expresion>`* **]** **+** **[** **]** 
+	+ *`<sentenciaFor>`* **::=** **for** **(** *`<tipo>` *`<identificador>`* **:** *`<expresión>`* **)** *`<sentencia>`*
+<br>
 * **Semántica**:
 
 
@@ -34,14 +27,9 @@
 		
 		- Recomendado que sea una **colección de elementos homogéneos, todos ellos del mismo tipo y de la misma naturaleza**: no combinar 5 contadores y un acumulador
 
+<br>
 
-
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a4\_tablas.a1\_creacion;
-
+```java
 class App {
 
     public static void main(String[] args) {
@@ -116,22 +104,18 @@ class App {
 ```
 
 
- |
+<br>
 
 
+**Acceso a elementos**
 
 
-
-
-
-| Acceso a elementos | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<expresión>* **::=** *<expresión>* **[** *<expresión>* **]**
-	+ *<expresión>* **::=** *<expresión>* **.length**
+	+ *`<expresión>`* **::=** *`<expresión>`* **[** *`<expresión>`* **]**
+	+ *`<expresión>`* **::=** *`<expresión>`* **.length**
+<br>
 
 * **Semántica**:
 
@@ -143,14 +127,9 @@ class App {
 	
 		- donde la variable declarada tomará cada uno de los valores del *array* en el orden natural
 
+<br>
 
-
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a4\_tablas.a2\_acceso;
-
+```java
 class App {
 
     public static void main(String[] args) {
@@ -181,22 +160,14 @@ class App {
 }
 ```
 
+<br>
 
- |
+**Referencias**
 
-
-
-
-
-
-
-| Referencias | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<sentencia>* **::=** **(** **byte** **|** **short** **|** **int** **|** **long** **|** **float** **|** **double** **|** **char** **|** **String** **|** **boolean** **)** **(** **[** **]** **)** **\+** *<identificador>* **[** **=** *<expresion>* *** [red]**]*
+	+ *`<sentencia>`* **::=** **(** **byte** **|** **short** **|** **int** **|** **long** **|** **float** **|** **double** **|** **char** **|** **String** **|** **boolean** **)** **(** **[** **]** **)** **\+** *`<identificador>`* **[** **=** *`<expresion>`* *** [red]**]*
 
 * **Semántica**:
 
@@ -204,13 +175,9 @@ class App {
 	+ son variables/constantes declaradas no almacenan el valor compuesto del array, como ocurre con los tipos primitivos, sino que **almancenan la dirección/"referencia" a la memoria donde se almacenan los valores del tipo compuesto**
 
 
+<br>
 
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a4\_tablas.a3\_referencia;
-
+```java
 class App {
 
     public static void main(String[] args) {
@@ -284,22 +251,14 @@ class App {
 }
 ```
 
+<br>
 
- |
+**Modificación de elementos**
 
-
-
-
-
-
-
-| Modificación de elementos | *java* |
-| --- | --- |
-| 
 * **Sintaxis**:
 
 
-	+ *<sentAsignacion>* **::=** *<expresión>* **[** *<expresión>* **]** = *<expresión>* **;**
+	+ *`<sentAsignacion>`* **::=** *`<expresión>`* **[** *`<expresión>`* **]** = *`<expresión>`* **;**
 
 * **Semántica**:
 
@@ -308,12 +267,8 @@ class App {
 
 
 
- | 
 
-
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a4\_tablas.a4\_modificacion;
-
+```java
 class App {
 
   public static void main(String[] args) {
@@ -345,13 +300,12 @@ class App {
 
 
 
-| Valor ***null*** | *java* |
-| --- | --- |
-| 
+  **Valor** ***null***
+
 * **Sintaxis**:
 
 
-	+ *<literal>* **::=** **null**
+	+ *`<literal>`* **::=** **null**
 
 * **Semántica**:
 
@@ -359,13 +313,9 @@ class App {
 	+ la dirección ***null*** es el valor de **aquella dirección donde no hay valores**
 
 
+<br>
 
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a2\_estructurada.a4\_tablas.a5\_null;
-
+```java
 class App {
 
   public static void main(String[] args) {
@@ -390,44 +340,20 @@ class App {
   }
 }
 ```
+<br>
 
 
- |
+| **Aplicaciones** |--- |--- |
+| --- |--- |--- |
+|[3-numbers/5-changeCoins/v1](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#5-changecoinsv1) : [*v1.1*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a5_changeCoins/v1_1/App.java) - [v1.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a5_changeCoins/v1_2/App.java)|[1-space/2-triangle/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/1-space.md#2-trianglev0) : [*v0.2*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a1_space/a2_triangle/v0_2/App.java) - [v0.3](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a1_space/a2_triangle/v0_3/App.java)|[4-numberingSystems/0-digits/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/4-numberingSystems.md#0-digits) : [*v0.1*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a4_numberingSystems/a0_digits/v0_1/App.java) - [v0.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a4_numberingSystems/a0_digits/v0_2/App.java)|
+|[6-collections/3-matrixTranspose/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/6-collections.md#3-matrixtranspose) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a6_collections/a3_matrixTranspose/v0_0/App.java)|[1-interval4-split](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/5-units.md#1-interval4-split) : [split](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a1_interval/scenarios/split/App.java)| |
 
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
-* [3-numbers/5-changeCoins/v1](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/3-numbers.md#5-changecoinsv1) : [*v1.1*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a5_changeCoins/v1_1/App.java) - [v1.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a3_numbers/a5_changeCoins/v1_2/App.java)
-
-
- | 
-* [1-space/2-triangle/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/1-space.md#2-trianglev0) : [*v0.2*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a1_space/a2_triangle/v0_2/App.java) - [v0.3](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a1_space/a2_triangle/v0_3/App.java)
-
-
- | 
-* [4-numberingSystems/0-digits/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/4-numberingSystems.md#0-digits) : [*v0.1*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a4_numberingSystems/a0_digits/v0_1/App.java) - [v0.2](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a4_numberingSystems/a0_digits/v0_2/App.java)
-
-
- |
-| 
-* [6-collections/3-matrixTranspose/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/6-collections.md#3-matrixtranspose) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a6_collections/a3_matrixTranspose/v0_0/App.java)
-
-
- | 
-* [1-interval4-split](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/5-units.md#1-interval4-split) : [split](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a1_interval/scenarios/split/App.java)
-
-
- |  |
 
 
 ---
 
 [Volver al nivel superior](../README.md)
 
+
+
+[Anterior](../u3sequentialStatement/README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)

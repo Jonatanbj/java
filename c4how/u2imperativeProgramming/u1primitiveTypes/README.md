@@ -22,6 +22,7 @@
  
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Sentencias Simples](../u2simpleStatements/README.md)
+
+
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](u1numericTypes/README.md)

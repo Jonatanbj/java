@@ -10,3 +10,6 @@
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Conversión de Tipos](../u8typeConversion/README.md)
+
+
+[Anterior](../u6inheritanceBenefits/README.md) | [Subir nivel](../README.md) | [Siguiente](../u9inheritanceAndEnums/README.md)

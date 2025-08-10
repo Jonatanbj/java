@@ -1,26 +1,15 @@
 # [Sentencia de Asignación](../u4assignmentStatement/README.md)
 
-
-
-
-
-
 * **Sintaxis**:
-
 
 	+ *`<expresion>`* **::=** *`<identificador>`* **=** *`<expresion>`* **;**
 <br><br>
 * **Semántica**:
 
-
 	+ como "sentencia", asigna/ actualiza/ "iguala", …​, *set, move, :=*, …​, con **efecto lateral**: asignando a la variable identificada a la izquierda el resultado de la evaluacíon de la expresión **con restricción al tipo de la variable, lenguaje con sistema de tipos estático!!!**
 	+ como operador, **devuelve**, el **valor recién asignado** a la variable
-	
-	
+
 		- **No recomendado como parte de otra expresión**
-
-
-
 
 
 ```java
@@ -45,7 +34,7 @@ class App {
     }
 }
 ```
-<br><br>
+<br>
 
 | **Aplicaciones** |--- | --- | 
 | --- | --- | --- | 
@@ -56,6 +45,4 @@ class App {
 
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Sentencia de Declaración de Constante](../u5constantDeclaration/README.md)
+[Anterior](../u3variableDeclaration/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5constantDeclaration/README.md)

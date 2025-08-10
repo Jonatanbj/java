@@ -1,22 +1,10 @@
-# Objetos Valor
+# [Objetos Valor](../u7valueObjects/README.md)
 
-
-
-
-
-
-| 
 * En el caso de que los atributos sean **constantes, puede postergarse la inicialización obligatoria al cuerpo de todos los constructores**.
-
 
 	+ Una vez inicializadas, ya no es posible la asignación de nuevos valores.
 
-
-
- | 
-
-
-```
+```java
 class Person  {
   public final short ADULT = 18;
   private short age;
@@ -29,27 +17,10 @@ class Person  {
   ...
 }
 ```
-
-
- |
-
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
+**Aplicaciones** 
+ 
 * Fraction - [*Fraction*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a3_values/Fraction.java) - [*FractionView*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a3_values/FractionView.java) - [*App*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a3_values/App.java)
-
-
- |  |  |
-
 
 ---
 
-[Volver al nivel superior](../README.md)
-
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u4objectBasedProgramming/u4privateViewOfObjects/README.md)

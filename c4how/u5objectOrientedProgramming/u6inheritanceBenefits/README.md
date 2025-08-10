@@ -44,3 +44,6 @@ X2
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Polimorfismo](../u7polymorphism/README.md)
+
+
+[Anterior](../u5inheritanceLimitations/README.md) | [Subir nivel](../README.md) | [Siguiente](../u7polymorphism/README.md)

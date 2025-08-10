@@ -10,14 +10,14 @@
 ### Sintaxis
 
 
-- *\<expresion>*  **::=** *\<expresion>* *\<operadorBinarioLogico>* *\<expresion>* <br><br>
-- *\<operadorBinarioLogico>*  **::=** **&&** **\|** **\|\|** 
+- *`<expresion>`*  **::=** *`<expresion>`* *`<operadorBinarioLogico>`* *`<expresion>`*  
+- *`<operadorBinarioLogico>`*  **::=** **&&** **\|** **\|\|**
 
 ### Semántica
 
 
-- **&&**  y-lógico  Devuelve la evaluación de la primera expresión, **no *true***, cuando **ambos operandos evalúan a cierto** 
-- **\|\|**  o-lógico  **Devuelve la evaluación de la primera expresión**, **no *true*** **cuando es cierto o, caso contrario, la evaluación de la segunda expresión cuando es cierta** 
+- **&&**  y-lógico  Devuelve la evaluación de la primera expresión, **no *true***, cuando **ambos operandos evalúan a cierto**
+- **\|\|**  o-lógico  **Devuelve la evaluación de la primera expresión**, **no *true*** **cuando es cierto o, caso contrario, la evaluación de la segunda expresión cuando es cierta**
 - ***false*** en casos contrarios |
 
 
@@ -40,12 +40,6 @@ public class App {
 
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
+[Anterior](../u2unaryOperators/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3charType/README.md)

@@ -38,3 +38,6 @@ class Object {
 
 [Volver al nivel superior](../README.md)
 
+
+
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)

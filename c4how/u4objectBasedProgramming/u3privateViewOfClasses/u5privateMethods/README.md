@@ -1,11 +1,6 @@
-# Métodos privados
+# [Métodos privados](./README.md)
 
 
-
-
-
-
-| 
 * Sirve para la **reutilización de métodos en la codificación de otros métodos**
 
 
@@ -14,45 +9,79 @@
 
 
 
-
-
-
-```
-class <class> {
-   private <methodHeader> <sequentialSentence>
-   private <methodHeader> <sequentialSentence>
+`class` `<class>` `{`
+   `private` `<methodHeader>` `<sequentialSentence>`
+   `private` `<methodHeader>` `<sequentialSentence>`
    ...
-}
-```
+`}`
 
 
- | 
+<br>
 
-
-```
+```java
 public Interval shifted(double amount) {
    Interval interval = this.clone();
    interval.shift(amount);
    return interval;
 }
 
+
 private Interval clone() {
   return new Interval(this);
 }
 ```
+<br>
 
 
- |
+**Resumen de Implantación de Clases** 
 
+```java
+class Clazz {
 
+    public int publicAtributte; // Desaconsejado
+    private int privateAtributte;
 
+    public Clazz(int value) {
+        this.publicAtributte = 2;
+        this.privateAtributte = value;
+    }
 
+    private Clazz() {
+        this(3);
+        // ...
+    }
 
+    public void publicInstnaceMethod() {
+        Console console = new Console();
+        console.writeln();
+        console.writeln("publicInstnaceMethod : publicAtributte: " + this.publicAtributte);
+        console.writeln("publicInstnaceMethod : privateAtributte: " + this.privateAtributte);
+        this.privateInstanceMethod();
+    }
 
+    private void privateInstanceMethod() {
+        Console console = new Console();
+        console.writeln();
+        console.writeln("privateInstnaceMethod : publicAtributte: " + this.publicAtributte);
+        console.writeln("privateInstnaceMethod : privateAtributte: " + this.privateAtributte);
+    }
 
-| *Resumen de Implantación de Clases* |
-| --- |
-| 
+}
+
+class App {
+
+    public static void main(String[] args) {
+        Console console = new Console();
+        console.writeln();
+        Clazz object = new Clazz(0);
+        console.writeln("main.publicAtributte: " + object.publicAtributte);
+        // console.writeln("main.privateAtributte: " + object.privateAtributte);
+        object.publicInstnaceMethod();
+        // object.privateInstnaceMethod();
+    }
+}
+``` |--- |
+| --- |--- |
 
 
 ```
@@ -104,13 +133,9 @@ class App {
 }
 ```
 
+<br>
 
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a3\_basadaObjetos.a1\_method;
-
+```java
 class X {
 }
 
@@ -177,27 +202,10 @@ class App {
 }
 ```
 
+**Aplicaciones** 
 
- |
-
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
 * Fraction - [*Fraction*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a1_classes/Fraction.java) - [*App*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a1_classes/App.java)
-
-
- |  |  |
-
 
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Aserciones](../u6assertions/README.md)
+[Anterior](../u4thisReference/README.md) | [Subir nivel](../README.md) | [Siguiente](../u6assertions/README.md)

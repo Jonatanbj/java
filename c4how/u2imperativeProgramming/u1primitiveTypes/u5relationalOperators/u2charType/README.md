@@ -28,17 +28,8 @@ class App {
         console.writeln('\n'); // (salto de línea)
         console.writeln('\u3333'); // ?
     }
-
 }
 ```
-
-
- |
-
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Tipo boolean](../u3booleanType/README.md)
+[Anterior](../u1numericType/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3booleanType/README.md)

@@ -48,7 +48,7 @@ class App {
     }
 }
 ```
-<br><br>
+<br>
 
 **Palabras Reservadas**
 
@@ -68,11 +68,6 @@ class App {
 | --- | --- | --- | --- |
 | * [2-texts/0-regards/v3](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#0-regardsv3) : [*v3.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v3_0/App.java) - [v3.1](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v3_1/App.java) | * [2-texts/0-regards/v4](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#0-regardsv4) : [v4.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a0_regards/v4_0/App.java) | * [2-texts/1-echo/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#1-echov0) : [*v0.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a1_echo/v0_0/App.java) - [v0.1](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a1_echo/v0_1/App.java) | * [0-time/0-units/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/0-time.md#0-unitsv0) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_time/a0_units/v0_0/App.java)
 
-
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Sentencia de Asignación](../u4assignmentStatement/README.md)
+[Anterior](../u2dataInput/README.md) | [Subir nivel](../README.md) | [Siguiente](../u4assignmentStatement/README.md)

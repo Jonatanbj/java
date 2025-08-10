@@ -3,13 +3,13 @@
 ## Sintaxis
 
 
-- *\<literal>*  **::=** *\<valorCaracter>* <br><br>
-- *\<valorCaracter>*  **::=** **'** *\<caracter>* **'** **\|** **'** **\\** *\<caracter>* **'** <br><br>
+- **`<literal>` ::= `<valorCaracter>`** <br><br>
 
-   * *<caracter>* son los caracteres imprimibles del código ASCII (espacio, letras, dígitos, símbolos de puntuación, …)<br><br>
-   * los caracteres "escapados" son aquellos que no son imprimibles (salto de línea, …) o con sobrecarga de significados (apostrofe para comienzo de cadena, …) que deben precederse del caracter escape: '\n', '\t', …​ '\"', '\'', '\"' y '\\',<br><br>
-      * *\uXXXX* para caracteres de UTF-16 de Unicode<br><br>
-         * donde X será un valor hexadecimal: *[0-9AF]*
+- **`<valorCaracter>` ::= `'` `<caracter>` `'`** &nbsp;|&nbsp; **`'\\'` `<caracter>` `'`** <br><br>
+
+    - `<caracter>` son los caracteres imprimibles del código ASCII (espacio, letras, dígitos, símbolos de puntuación, …).<br>
+    - Los caracteres "escapados" son aquellos que no son imprimibles (salto de línea, …) o tienen sobrecarga de significados (apóstrofe para comienzo de cadena, …) y deben precederse del carácter de escape: `'\n'`, `'\t'`, `'\"'`, `'\''`, `'\\'`.<br>
+    - También se puede usar la notación Unicode: `'\uXXXX'` para caracteres de UTF-16 de Unicode, donde `X` es un valor hexadecimal (`0-9A-F`).<br> <br>
 
 ### Caracteres Escapados
 
@@ -51,5 +51,8 @@ class App {
 
 ---
 
-[Volver al nivel superior](../README.md)
+[Anterior: Boolean](/c4how/u2imperativeProgramming/u1primitiveTypes/u2booleanType/README.md)
+[Siguiente: Literales String](/c4how/u2imperativeProgramming/u1primitiveTypes/u4stringLiterals/README.md)
 
+
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)

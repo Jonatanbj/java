@@ -3,16 +3,16 @@
 
 
 `<cadenaCaracteres>` **::=** **(** **"** **|** **'** **)**   `<caracter>` **(** **"** **|** **'** **)**
-* donde
+* donde<br><br>
    * las comillas simples o compuestas de apertura y cierre deben ser iguales y distintas de cualquier caracter interior
-   * `<caracter>` es
+   * `<caracter>` es<br><br>
       * cualquiera caracter ASCII (espacio, letras, dígitos, símbolos de puntuación, …)
       * excluyendo aquellos no imprimibles (salto de línea, …) o con significado (comienzo de cadena, …) que deben precederse del caracter escape: \n, \t, …​ \", \', \" y \\ (tabla),
       * *\uXXXX* para caracteres de UTF-16 de Unicode
       * *\xXX* para caracteres de ASCII / ISO 8859-1 (Latin-1)
       * *\u{XXXXXX}* para caracteres de UTF-32
-      * en todos los casos anteriores, X será un valor hexadecimal: *0, …, 9, A, …​, F*
-* `<cadenaCaracteres>` **::=**  ( `<caracter>` **| ${** `<expresion>` } ) * 
+      * en todos los casos anteriores, X será un valor hexadecimal: *0, …, 9, A, …​, F*<br><br>
+* `<cadenaCaracteres>` **::=**  ( `<caracter>` **| ${** `<expresion>` } ) * <br><br>
    * para **plantillas literales**, cadenas literales que habilitan el uso de expresiones incrustadas
    * con los mismos caracteres que las cadenas anteriores pero sin necesidad de caracter de escape para las comillas, ni saltos de línea, …<br><br>
 
@@ -42,7 +42,4 @@ class App {
 
 ```
 
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operador de Concatenación](../u2concatenationOperator/README.md)
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2concatenationOperator/README.md)

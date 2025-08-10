@@ -4,10 +4,12 @@
 
 
 
-| **Aspecto** | **Descripción** |
-| --- | --- |
-| **Sintaxis** | <ul><li><code>&lt;literal&gt;</code> ::= <code>&lt;valorLogico&gt;</code></li><li><code>&lt;valorLogico&gt;</code> ::= <code>true</code> | <code>false</code></li></ul> |
-| **Semántica** | <ul><li>correspondientes con cierto y false respectivamente</li></ul> |
+**Sintaxis** 
+ - `<literal>` ::= `<valorLogico>`<br> 
+ -  `<valorLogico>` ::= `true` | `false`  
+   
+  **Semántica**  
+ - correspondientes con cierto y false respectivamente 
 
 
 ```java
@@ -22,13 +24,5 @@ public class App {
     }
 }
 ```
-
-
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operadores unarios](../u2unaryOperators/README.md)
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2unaryOperators/README.md)

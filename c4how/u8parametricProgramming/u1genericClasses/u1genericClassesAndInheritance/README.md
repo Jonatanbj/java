@@ -54,3 +54,6 @@ public final class Integer extends Number implements Comparable<Integer>
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Limitaciones de las clases genéricas](../u2genericClassesLimitations/README.md)
+
+
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2genericClassesLimitations/README.md)

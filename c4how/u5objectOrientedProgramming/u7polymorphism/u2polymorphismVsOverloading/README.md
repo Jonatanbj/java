@@ -51,3 +51,6 @@ b = a.m(a, c);
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Beneficios del Polimorfismo](../u3polymorphismBenefits/README.md)
+
+
+[Anterior](../u1formalization/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3polymorphismBenefits/README.md)

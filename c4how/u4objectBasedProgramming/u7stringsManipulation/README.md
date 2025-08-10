@@ -8,42 +8,12 @@
 
 | **Definición** | **Constantes, inmutables** | **Variables, mutables** |
 | --- | --- | --- |
-| 
-* Son **secuencias de caracteres de cualquier longitud**, incluso **secuencia vacía**
+| Son **secuencias de caracteres de cualquier longitud**, incluso **secuencia vacía** | - cuyos caracteres no varían tras la creación<br>&nbsp;&nbsp;&nbsp;&nbsp; - Implementadas bajo la clase **String** sin contemplar métodos que modifiquen el estado del objeto.<br>&nbsp;&nbsp;&nbsp;&nbsp;  - *Ej. El nombre de una persona, de un mes, de una universidad, de un proyecto, …​* | -  cuyos caracteres sí varían tras la creación<br>&nbsp;&nbsp;&nbsp;&nbsp; - Implementadas bajo las clases **StringBuffer** (con sincronización en concurrencia) y **StringBuilder** (sin) con métodos que contemplan la modificación del objeto.<br>&nbsp;&nbsp;&nbsp;&nbsp; - *Ej. Membrete de una carta, párrafo de aviso, clausula de contrato, …​* |
 
 
- | 
-* cuyos caracteres no varían tras la creación
+***Clase*** [*String*](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) 
 
-
-	+ Implementadas bajo la clase **String** sin contemplar métodos que modifiquen el estado del objeto.
-	+ *Ej. El nombre de una persona, de un mes, de una universidad, de un proyecto, …​*
-
-
-
- | 
-* cuyos caracteres sí varían tras la creación
-
-
-	+ Implementadas bajo las clases **StringBuffer** (con sincronización en concurrencia) y **StringBuilder** (sin) con métodos que contemplan la modificación del objeto
-	+ *Ej. Membrete de una carta, párrafo de aviso, clausula de contrato, …​*
-
-
-
- |
-
-
-
-
-
-
-
-| *Clase* [*String*](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) |
-| --- |
-| 
-
-
-```
+```java
 public String()
 public String(String)
 public String(char[])
@@ -80,10 +50,10 @@ public int lastIndexOf(int, int)
 ```
 
 
- | 
 
 
-```
+
+```java
 public int codePointAt(int)
 public int codePointBefore(int)
 public int codePointCount(int, int)
@@ -113,30 +83,18 @@ public String trim()
 ```
 
 
- |
-| 
 
-
-```
+```java
 void getBytes(int srcBegin, int srcEnd,
   byte[] dst, int dstBegin)
 ```
 
-
- | 
-
-
-```
+```java
 void getChars(int srcBegin, int srcEnd,
   char[] dst, int dstBegin)
 ```
 
-
- |
-| 
-
-
-```
+```java
 public static String valueOf(char)
 public static String valueOf(int)
 public static String valueOf(long)
@@ -144,11 +102,7 @@ public static String valueOf(char[])
 public static String copyValueOf(char[])
 ```
 
-
- | 
-
-
-```
+```java
 public static String valueOf(float)
 public static String valueOf(double)
 public static String valueOf(boolean)
@@ -157,20 +111,12 @@ public static String copyValueOf(char[],int, int)
 ```
 
 
- |
-
-
-
-
-
-
-
 | *Clases* [*StringBuffer*](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuffer.html) y [*StringBuilder*](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html) |
 | --- |
 | 
 
 
-```
+```java
 public StringBuffer()
 public StringBuffer(int)
 public StringBuffer(String)
@@ -204,7 +150,7 @@ public void getChars(int, int, char[], int)
  | 
 
 
-```
+```java
 public StringBuffer append(String)
 public StringBuffer append(StringBuffer)
 public StringBuffer append(char[])
@@ -236,41 +182,19 @@ public StringBuffer reverse()
 ...
 ```
 
+**Literales *String*** 
 
- |
-
-
-
-
-
-
-
-| **Literales *String*** | *Ejemplos* |
-| --- | --- |
-| 
 * es la única clase cuyos objetos pueden presentarse en forma literal;
 * su formato es una secuencia de caracteres de cualquier longitud encerrados entre dobles comillas
 
-
-
-
-
-
-```
-"<caracter>..."
-```
-
-
-
+`<caracter>...`
 
 * son objetos de la clase **String** cuya evaluación devuelve la dirección del objeto al que representan;
 * además, es la única clase que disfruta de un operador (**+**) para la concatenación de cadenas de caracteres y combinado con cualquier tipo.
 
+ *Ejemplos* 
 
- | 
-
-
-```
+```java
 int longitud = "caracteres".length();
 String cadena = new String("caracteres");
 boolean falso = cadena == "caracteres";
@@ -283,31 +207,13 @@ boolean si = ("cadena de " + cadena).
 String serie = (0+1)+", "+(1+1)+","+(2+1)+".";
 ```
 
-
- |
-
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
+**Aplicaciones** 
 * [3-initials/v0.0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#3-initialsv0) - [*v0.0*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a3_initials/v0_0/App.java) - [v1.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a3_initials/v1_0/App.java)
 
-
- | 
 * [2-texts/2-morseTranlator/v0](https://github.com/USantaTecla-0-domains/0-simpleDomains/blob/master/docs/2-texts.md#2-morsetranlator) : [v0.0](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a2_texts/a2_morseTranslator/v0_0/App.java)
-
-
- |  |
-
 
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Enumerados](../u8enumerations/README.md)
+
+[Anterior](../u6wrapperClasses/README.md) | [Subir nivel](../README.md) | [Siguiente](../u8enumerations/README.md)

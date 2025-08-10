@@ -1,4 +1,4 @@
-# [Tipo string](../u4stringType/)
+# [Tipo string](../u4stringType/README.md)
 
 
 **Operadores binarios infijos, Java**
@@ -16,10 +16,7 @@
     * `==`, igualdad en valor; `!=`, desigualdad en valor;
 
 
-
 ```java
-
-
 class App {
 
     public static void main(String[] args) {
@@ -31,11 +28,6 @@ class App {
 }
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
+[Anterior](../u3booleanType/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u2imperativeProgramming/u2simpleStatements/README.md)

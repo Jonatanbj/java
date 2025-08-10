@@ -1,13 +1,7 @@
 # Clases de Recubrimiento
 
 
-
-
-
-
-| **Clases de Recubrimiento** | *Clase* [*Character*](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html) |
-| --- | --- |
-| 
+**Clases de Recubrimiento**  
 * Aglutinan funciones de conversión entre los tipos primitivos y las correspondientes cadenas de caracteres junto con algunas otras funciones auxiliares particulares de cada tipo primitivo.
 
 
@@ -21,11 +15,8 @@
 	+ *Clase* [*Boolean*](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)
 
 
-
- | 
-
-
-```
+***Clase*** [*Character*](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html) 
+```java
 class Character {
   Character(char)
   char charValue()
@@ -52,20 +43,10 @@ class Character {
 ```
 
 
- |
+ **Clase** [*Integer*](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html) 
 
 
-
-
-
-
-
-| *Clase* [*Integer*](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html) |
-| --- |
-| 
-
-
-```
+```java
 class Integer {
   public static final int MIN_VALUE;
   public static final int MAX_VALUE;
@@ -81,15 +62,6 @@ class Integer {
   public String toString()
   public int hashCode()
   public int compareTo(Integer)
-  ...
-```
-
-
- | 
-
-
-```
-  ...
   public static String toString(int, int)
   public static String toHexString(int)
   public static String toOctalString(int)
@@ -109,21 +81,10 @@ class Integer {
 }
 ```
 
-
- |
-
+*Clase* [*Boolean*](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html) 
 
 
-
-
-
-
-| *Clase* [*Boolean*](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html) | *Ejemplos* |
-| --- | --- |
-| 
-
-
-```
+```java
 class Boolean {
   public static Boolean FALSE
   public static Boolean TRUE
@@ -146,12 +107,10 @@ class Boolean {
   public static String toString(boolean b)
 }
 ```
+*Ejemplos*
 
 
- | 
-
-
-```
+```java
 public Fecha(String cadena) {
   dia = Integer.parseInt(
     cadena.substring(0, cadena.indexOf("/")));
@@ -170,12 +129,8 @@ public String toString() {
 ...
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Cadenas de Caracteres](../u7stringsManipulation/README.md)
+
+[Anterior](../u5classMembers/README.md) | [Subir nivel](../README.md) | [Siguiente](../u7stringsManipulation/README.md)

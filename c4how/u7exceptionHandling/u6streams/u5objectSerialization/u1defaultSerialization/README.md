@@ -143,3 +143,6 @@ private void restaurar() {
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Serialización personalizadas](../u2customSerialization/README.md)
+
+
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2customSerialization/README.md)

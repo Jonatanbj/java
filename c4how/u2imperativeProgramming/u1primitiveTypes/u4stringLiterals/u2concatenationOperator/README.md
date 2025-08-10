@@ -9,8 +9,6 @@
 
   * +, operador binario que, dados dos string, devuelve otra cadena de caracteres con los primeros caracteres iguales al primer string y los últimos caracteres iguales a los del segundo string
 
-
-
 ```java
 class App {
 
@@ -25,11 +23,6 @@ class App {
   }
 }
 ```
-
-
- 
-
 ---
 
-[Volver al nivel superior](../README.md)
-
+[Anterior](../u1Literalesdetipostring/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u2imperativeProgramming/u1primitiveTypes/u5relationalOperators/README.md)

@@ -1,32 +1,15 @@
-# Cabecera de Métodos de la Clase
+# [Cabecera de Métodos de la Clase](/java/c4how/u4objectBasedProgramming/u1publicViewOfClasses/u2methodSignatures/README.md)
 
-
-
-
-
-
-| 
 **Sintaxis**
- | 
-***Ejemplo***
- |
-| 
 
-
-```
-public <tipo1> <nombreMetodo> ( {<tipo2> <parametro>, ...}* )
-```
-
-
-
+`public` `<tipo1>` `<nombreMetodo>` ( {`<tipo2>` `<parametro>`, ...} )
 
 * el *tipo1* indica el **tipo del valor devuelto**, que puede ser:\_
 
-
 	+ ***void***, nada, dado que el efecto será un cambio de estado en el objeto y/o sistema
-	+ *<primitivo/Clase>*, un valor de tipo primitivo o una referencia a un objeto de una clase
-	+ *<primitivo/Clase>[]*, una referencia a un vector de valores de tipos primitivos o de referencias a objetos
-	+ *<primitivo/Clase>[][]*, una referencia a una matriz de valores de tipos primitivos o de referencias a objetos
+	+ `<primitivo/Clase>`*, un valor de tipo primitivo o una referencia a un objeto de una clase
+	+ `<primitivo/Clase>` **[ ]**, una referencia a un vector de valores de tipos primitivos o de referencias a objetos
+	+ `<primitivo/Clase>` **[ ][ ]**, una referencia a una matriz de valores de tipos primitivos o de referencias a objetos
 	+ …​
 
 * el **nombre del método** debe comenzar con minúscula\_
@@ -35,12 +18,7 @@ public <tipo1> <nombreMetodo> ( {<tipo2> <parametro>, ...}* )
 
 	+ todos los **parámetros son pasados por valor**
 
-
-
- | 
-
-
-```
+```java
 class Interval {
   public void shift(double shiftment) {...}
   public void adjust(Interval interval) {...}
@@ -55,13 +33,6 @@ class Interval {
   ...
 }
 ```
-
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Sobrecarga de Métodos de la Clase](../u3methodOverloading/README.md)
+[Anterior](../u1className/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3methodOverloading/README.md)

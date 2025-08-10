@@ -57,3 +57,6 @@ class Writer {
 [Volver al nivel superior](../README.md)
 
 [Siguiente sección: Otros Flujos](../u3otherStreams/README.md)
+
+
+[Anterior](../u1byteStreams/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3otherStreams/README.md)

@@ -7,6 +7,7 @@
 
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Tipo boolean](../u2booleanType/README.md)
+
+
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](u1literals/README.md)

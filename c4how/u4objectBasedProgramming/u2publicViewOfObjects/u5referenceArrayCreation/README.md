@@ -1,42 +1,12 @@
-# Referencia a un vector de referencias a objetos
-
-
-
-
-
-
+# [Referencia a un vector de referencias a objetos](./README.md)
 
 | **Definición** | **Sintaxis** | **Ejemplo** |
 | --- | --- | --- |
-| 
-Es una variable puntero que alberga la dirección de un vector de referencias a objetos de una clase.
- | 
+| Es una variable puntero que alberga la dirección de un vector de referencias a objetos de una clase. | ![referencia2](/images/Referencia2.jpg) <br><br> - **final** obliga a la inicialización y fija su valor para la referencia| Intervalo **[   ]** intervalos; <br><br> ![Intervalos](/images/EjemploReferencia2%20(2).jpg)|
 
-heigt32
+<br>
 
-
-
-* **final** obliga a la inicialización y fija su valor para la referencia
-
-
- | 
-
-
-```
-Intervalo[] intervalos;
-```
-
-
-
-
-
-height32
-
-
-
-
-
-```
+```java
 Intervalo[] intervalos = new Intervalo[10];
 intervalos[0] = new Intervalo ();
 intervalos[1] = intervalos[0].desplazados(1);
@@ -45,21 +15,9 @@ Intervalo intervalo = intervalos[1];
 intervalos = null;**(1)**
 ...
 ```
-
-
-
-
-
-
-|  |  |
-| --- | --- |
-| **1** | *Se libera automáticamente toda la memoria de las referencias del vector y de cada objeto excepto del segundo intervalo porque nadie está apuntando a dichos elementos;* |
-
-
- |
-
+**1** *Se libera automáticamente toda la memoria de las referencias del vector y de cada objeto excepto del segundo intervalo porque nadie está apuntando a dichos elementos;*
 
 ---
 
-[Volver al nivel superior](../README.md)
 
+[Anterior](../u4objectArrayCreation/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u4objectBasedProgramming/u3privateViewOfClasses/README.md)

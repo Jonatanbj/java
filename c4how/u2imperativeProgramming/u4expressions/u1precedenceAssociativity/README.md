@@ -25,7 +25,7 @@
 		- estas reglas **no determinan el orden de evaluación**
 
 
-<br><br>
+<br>
 
 
 ```java
@@ -44,36 +44,30 @@ class App {
 }
 ```
 
-<br><br>
-imnagen original 
-# [TablaPrecedencia](images/tablaPrecedencia.webp)
 
-| Precedencia | Operador                   | Tipo                                                                 | Asociatividad       |
-|-------------|----------------------------|----------------------------------------------------------------------|---------------------|
-| 15          | () [] .                    | Paréntesis, subíndice de arreglo, selección de miembro               | Izquierda a derecha |
-| 14          | ++ --                      | Incremento y decremento postfijo                                     | Derecha a izquierda |
-| 13          | ++ -- + - ! ~ (tipo)       | Prefijo, unario, conversión de tipo                                  | Derecha a izquierda |
-| 12          | * / %                      | Multiplicación, división, módulo                                     | Izquierda a derecha |
-| 11          | + -                        | Suma y resta                                                         | Izquierda a derecha |
-| 10          | << >> >>>                  | Desplazamientos a nivel de bits                                      | Izquierda a derecha |
-| 9           | < <= > >= instanceof       | Relacionales y prueba de tipo                                        | Izquierda a derecha |
-| 8           | == !=                      | Igualdad y desigualdad                                               | Izquierda a derecha |
-| 7           | &                          | AND a nivel de bits                                                  | Izquierda a derecha |
-| 6           | ^                          | XOR a nivel de bits                                                  | Izquierda a derecha |
-| 5           | \|                         | OR a nivel de bits                                                   | Izquierda a derecha |
-| 4           | &&                         | AND lógico                                                           | Izquierda a derecha |
-| 3           | \|\|                       | OR lógico                                                            | Izquierda a derecha |
-| 2           | ? :                        | Condicional ternario                                                 | Derecha a izquierda |
-| 1           | = += -= *= /= %=           | Asignación y asignaciones compuestas                                 | Derecha a izquierda |
+
+![Tabla de Precedencia](/images/tablaPrecedencia.webp)
+
+| Precedencia | Operador                          | Tipo                                                                 | Asociatividad       |
+|-------------|-----------------------------------|----------------------------------------------------------------------|---------------------|
+| 15          | ()<br>[]<br>.                     | Paréntesis<br>Subíndice de arreglo<br>Selección de miembro          | Izquierda a derecha |
+| 14          | ++<br>--                          | Post-incremento unario<br>Post-decremento unario                    | Derecha a izquierda |
+| 13          | ++<br>--<br>+<br>-<br>!<br>~<br>(tipo) | Pre-incremento unario<br>Pre-decremento unario<br>Más unario<br>Menos unario<br>Negación lógica unaria<br>Complemento bit a bit unario<br>Conversión de tipo unaria | Derecha a izquierda |
+| 12          | *<br>/<br>%                       | Multiplicación<br>División<br>Módulo                                | Izquierda a derecha |
+| 11          | +<br>-                            | Adición<br>Sustracción                                               | Izquierda a derecha |
+| 10          | << <br>>><br>>>>                  | Desplazamiento a la izquierda<br>Desplazamiento a la derecha con signo<br>Desplazamiento a la derecha sin signo | Izquierda a derecha |
+| 9           | <<br><=<br>><br>>=<br>instanceof  | Menor que<br>Menor o igual que<br>Mayor que<br>Mayor o igual que<br>Comparación de tipo (solo objetos) | Izquierda a derecha |
+| 8           | ==<br>!=                          | Igualdad<br>Desigualdad                                              | Izquierda a derecha |
+| 7           | &                                 | AND bit a bit                                                        | Izquierda a derecha |
+| 6           | ^                                 | XOR bit a bit                                                        | Izquierda a derecha |
+| 5           | \|                                | OR bit a bit                                                         | Izquierda a derecha |
+| 4           | &&                                | AND lógico                                                           | Izquierda a derecha |
+| 3           | \|\|                              | OR lógico                                                            | Izquierda a derecha |
+| 2           | ? :                               | Condicional ternario                                                 | Derecha a izquierda |
+| 1           | =<br>+=<br>-=<br>*=<br>/=<br>%=   | Asignación<br>Asignación con suma<br>Asignación con resta<br>Asignación con multiplicación<br>Asignación con división<br>Asignación con módulo | Derecha a izquierda |                         | Derecha a izquierda |
 
 _Mayor número indica mayor precedencia._
 
-
-![tablaPrecedencia](images/tablaPrecedencia.webp)
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Operador Paréntesis](../u2parenthesisOperator/README.md)
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2parenthesisOperator/README.md)
