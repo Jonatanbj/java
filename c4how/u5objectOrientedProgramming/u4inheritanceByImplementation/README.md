@@ -1,25 +1,24 @@
-# Herencia por Implementación
+# [Herencia por Implementación](readme.md)
 
 
 
 
 
 
-| **Interfaces** | **Ejemplo** |
-| --- | --- |
-| 
+|**Interfaces**
+
 * Son **clases abstractas puras** que no contienen ningún atributo ni la definición de ningún método, **sólo contienen métodos abstractos**.
 
 
 	+ puede ser base de clases u otros interfaces.
 	+ donde todos los métodos del interfaz son públicos.
 
+<br>
+
+  **Ejemplo** 
 
 
- | 
-
-
-```
+```java
 interface <interfazBase> {
     <cabeceraMetodo1>;
     …
@@ -35,31 +34,12 @@ interface <interfazDerivado> extends <interfazBase> {
 }
 ```
 
+**Aplicaciones** 
 
- |
-
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
 * Dispenser - [*herencia*](https://github.com/USantaTecla-tech-java/src/tree/main/src/main/java/es/usantatecla/aX_dispensers/a5_extends_a2_dispenser) - [interfaces](https://github.com/USantaTecla-tech-java/src/tree/main/src/main/java/es/usantatecla/aX_dispensers/a6_interfaces)
 
 
- |  |
 
-
-
-
-
-
-
-| 
 * **Una interfaz**
 
 
@@ -79,11 +59,7 @@ interface <interfazDerivado> extends <interfazBase> {
 	+ **la herencia por implementación SI la permite**
 
 
-
- | 
-
-
-```
+```java
 class <claseDerivada>
   extends <claseBase>
   implements <interfaz1>, …, <interfazN> {
@@ -95,15 +71,7 @@ interface <interfazDerivado>
 }
 ```
 
-
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Limitaciones de la Herencia](../u5inheritanceLimitations/README.md)
 
 
 [Anterior](../u3abstractClasses/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5inheritanceLimitations/README.md)
