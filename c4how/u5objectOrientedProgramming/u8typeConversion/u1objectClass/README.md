@@ -1,11 +1,6 @@
-# Clase Object
+# [Clase Object](README.md)
 
 
-
-
-
-
-| 
 * Toda clase "no derivada" explícitamente hereda implícitamente de la clase predefinida *Object*
 
 
@@ -15,11 +10,8 @@
 		- además, métodos para la sincronización de programas concurrentes y para usar la reflexión
 
 
+```java
 
- | 
-
-
-```
 class Object {
   public boolean equals(Object)
   public String toString()
@@ -31,13 +23,6 @@ class Object {
 ```
 
 
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-
-
-[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)
+[Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u5objectOrientedProgramming/u9inheritanceAndEnums/README.md)

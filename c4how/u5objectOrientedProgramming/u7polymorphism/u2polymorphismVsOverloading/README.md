@@ -1,19 +1,10 @@
-# Polimorfismo vs sobrecarga
+# [Polimorfismo vs sobrecarga](README.md)
 
 
+**Sobrecarga:** es un **enlace estático entre un mensaje y el método que se ejecuta**;
 
-
-
-
-
-| **Sobrecarga** | *Ejemplos* |
-| --- | --- |
-| 
-es un **enlace estático entre un mensaje y el método que se ejecuta**;
- | 
-
-
-```
+*Ejemplos:*
+```java
 class A {
   public void m()
   public void m(A a)
@@ -26,10 +17,7 @@ class B {
 ```
 
 
- | 
-
-
-```
+```java
 class C {
 }
 …
@@ -42,15 +30,9 @@ b = a.m(a, c);
 …
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
 
-[Siguiente sección: Beneficios del Polimorfismo](../u3polymorphismBenefits/README.md)
 
 
 [Anterior](../u1formalization/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3polymorphismBenefits/README.md)

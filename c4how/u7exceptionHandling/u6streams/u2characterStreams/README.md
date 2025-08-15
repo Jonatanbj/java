@@ -1,24 +1,11 @@
-# Flujos de Caracteres
+# [Flujos de Caracteres](README.md)
+
+![FlujoDeCaracteres.svg](/images/FlujoDeCaracteres.svg.png)
+
+![FlujoDeCaracteres2](/images/FlujoDeCaracteres2.svg)
 
 
-
-![FlujoDeCaracteres.svg](images/FlujoDeCaracteres.svg.png)
-
-
-
-
-![FlujoDeCaracteres2](images/FlujoDeCaracteres2.svg)
-
-
-
-
-
-
-
-| 
-
-
-```
+```java
 class Reader {
   public int read() throws IOException
   public int read(char[] cbuf) throws IOException
@@ -30,10 +17,7 @@ class Reader {
 ```
 
 
- | 
-
-
-```
+```java
 class Writer {
   public void write(int c) throws IOException { ... }
   public void write(char[] cbuf) throws IOException { ... }
@@ -48,15 +32,8 @@ class Writer {
 }
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Otros Flujos](../u3otherStreams/README.md)
 
 
 [Anterior](../u1byteStreams/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3otherStreams/README.md)

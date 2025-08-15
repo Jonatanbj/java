@@ -1,18 +1,10 @@
-# Listas
+# [Listas](README.md)
 
 
 
-
-
-
-| 
 * **Interfaz List<E>:** Representa una secuencia de elementos que ocupan una cierta posición en la colección, en la que puede haber elementos repetidos.
 
-
- | 
-
-
-```
+```java
 E get(int index)
 E set(int index, E element)
 void add(int index, E element)
@@ -25,16 +17,9 @@ List<E> subList(int fromIndex, int toIndex)
 boolean addAll(int index, Collection<? extends E> c)
 ```
 
-
- |
-| 
 * **Interfaz ListIterator<E>:** Recorre los elementos de una lista:
 
-
- | 
-
-
-```
+```java
 boolean hasPrevious()
 E previous()
 int nextIndex()
@@ -43,40 +28,15 @@ void add(E e)
 void set(E e)
 ```
 
+- El método *remove()* debe llamarse sólo después de *next()* o *previous()*, y elimina de la colección el último elemento devuelto por éstos.
+- *add()* inserta justo antes del elemento que se obtendría con *next()* y justo después del elemento que se obtendría con *previous()*.
+- *set()* reemplaza el último elemento devuelto por *next*() o *previous()*, y sólo puede invocarse si después de estas operaciones no se ha invocado *add()* o *set()*.
 
- |
+  * Las clases que implementan el interfaz List<E> son:
 
+* **Clase ArrayList<E>:** Proporciona una implementación basada en vectores de elementos que autoajustan su tamaño según se añaden elementos.
 
-
-* donde el método *remove()* debe llamarse sólo después de *next()* o *previous()*, y elimina de la colección el último elemento devuelto por éstos;
-
-
-* donde *add()* inserta justo antes del elemento que se obtendría con *next()* y justo después del elemento que se obtendría con *previous()*;
-
-
-* *set()* reemplaza el último elemento devuelto por *next*() o *previous()*, y sólo puede invocarse si después de estas operaciones no se ha invocado *add()* o *set()*;
-
-
-
-
-	+ Las clases que implementan el interfaz List<E> son:
-
-
-
-
-
-
-
-
-
-| 
-* **Clase ArrayList<E>:** que proporciona una implementación basada en vectores de elementos que autoajustan su tamaño según se añaden elementos;
-
-
- | 
-
-
-```
+```java
 public ArrayList()
 public ArrayList(int initialCapacity)
 public ArrayList(Collection<? extends E> c)
@@ -84,30 +44,16 @@ public void trimToSize()
 public void ensureCapacity(int minCapacity)
 ```
 
+* **Clase LinkedList<E>:** Utiliza listas doblemente enlazadas; además implementa el **interfaz Deque<E>**, por lo que puede usarse para tratar con colas (se verá más adelante).
 
- |
-| 
-* **Clase LinkedList<E>:** que utiliza listas doblemente enlazadas; además implementa el **interfaz Deque<E>**, por lo que puede usarse para tratar con colas (se verá más adelante);
-
-
- | 
-
-
-```
+```java
 public LinkedList()
 public LinkedList(Collection<? extends E> c)
 ```
 
+* **Clase Vector<E>:** También usa vectores autoajustables, y se mantiene por razones de compatibilidad con código heredado; además está sincronizada para evitar accesos concurrentes, lo que conlleva un cierto sobrecoste adicional.
 
- |
-| 
-* **Clase Vector<E>:** también usa vectores autoajustables, y se mantiene por razones de compatibilidad con código heredado; además está sincronizada para evitar accesos concurrentes, lo que conlleva un cierto sobrecoste adicional;
-
-
- | 
-
-
-```
+```java
 public Vector()
 public Vector(int initialCapacity)
 public Vector(int initialCapacity, int capacityIncrement)
@@ -131,16 +77,9 @@ public boolean removeElement(Object obj)
 public void removeAllElements()
 ```
 
-
- |
-| 
 * **Stack<E>:** Representa una pila LIFO.
 
-
- | 
-
-
-```
+```java
 public Stack()
 public E push(E item)
 public E pop()
@@ -150,14 +89,7 @@ public int search(Object o)
 ```
 
 
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Colas](../u2queues/README.md)
 
 
 [Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2queues/README.md)

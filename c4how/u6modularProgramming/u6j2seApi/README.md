@@ -5,60 +5,22 @@
 
 
 
-| **Biblioteca estandar** (***[Application Programming Interface](https://docs.oracle.com/javase/8/docs/api/)***) |
-| --- |
-| 
-* **[*java.lang*](https://docs.oracle.com/javase/8/docs/api/java/lang/package-summary.html)**: clases básicas del lenguaje, recubrimientos, …​ importado implícitamente por cualquier proyecto
-* **[*java.util*](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html)**: utilidades y estructuras de datos
-* **[*java.time*](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)**: calendario, desaprobando *java.util.Calendar*, *java.util.Date*, …​
-* **[*java.io*](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html)**: acceso a ficheros
-* ***java.awt, javax.swing***: interfaces gráficas de usuario
-* ***java.net***: acceso a redes
-* ***java.sql***: acceso a bases de datos
-* …​
-
-
- | 
-
-height32
-
- |
-| 
-
-height32
-
- | 
-
-height32
-
- |
-| 
-
-height32
-
- | 
-
-height32
-
- |
+| **Biblioteca estandar** (***[Application Programming Interface](https://docs.oracle.com/javase/8/docs/api/)***) |--- |
+| --- |--- |
+| - **[*java.lang*](https://docs.oracle.com/javase/8/docs/api/java/lang/package-summary.html)**: clases básicas del lenguaje, recubrimientos, …​ importado implícitamente por cualquier proyecto <br> - **[*java.util*](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html)**: utilidades y estructuras de datos <br> - **[*java.time*](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)**: calendario, desaprobando *java.util.Calendar*, *java.util.Date*, …​ <br>- **[*java.io*](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html)**: acceso a ficheros <br> - ***java.awt, javax.swing***: interfaces gráficas de usuario <br> - ***java.net***: acceso a redes <br> - ***java.sql***: acceso a bases de datos <br> - …​| ![Api1](/images/API1.png) ​|
+| ![Api2](/images/API2.png)  | ![Api3](/images/API3.png) | 
+| ![Api4](/images/API4.png)  | ![Api5](/images/API5.png) | 
 
 
 
+[Clase *java.util.Random*](https://docs.oracle.com/javase/6/docs/api/java/util/Random.html) 
 
 
-
-
-| [Clase *java.util.Random*](https://docs.oracle.com/javase/6/docs/api/java/util/Random.html) | *Ejemplo* |
-| --- | --- |
-| 
 * implantación más eficiente y menos sesgada, más aleatoria, que *Math.random()*
 
 
 
-
-
-
-```
+```java
 Random() {}
 Random(long seed) {}
 int nextInt(int top)**(1)**
@@ -72,22 +34,12 @@ void nextBytes(byte[] bytes)
 void setSeed(long seed)**(2)**
 ```
 
-
-
-
-
-
-|  |  |
-| --- | --- |
 | **1** | genera valores de 0 a *top* |
 | **2** | establece una semilla a partir de la cual generar los siguientes valores aleatorios, habitualmente alimentado con *System.currentTimeMillis()* |
 
+*Ejemplo:* 
 
- | 
-
-
-```
-package es.usantatecla.a0\_itinerario.a6\_packages.a2\_random;
+```java
 
 import java.util.Random;
 
@@ -109,40 +61,24 @@ class App {
 ```
 
 
- |
 
 
+Clases de Expresiones Regulares 
 
-
-
-
-
-| Clases de Expresiones Regulares | *Ejemplo* |
-| --- | --- |
-| 
 * **[*java.util.regex.Pattern*](https://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html)**
 
 
 
-
-
-
-```
+```java
 static Pattern compile(String expReg)
 Matcher matcher(String text)
 ```
 
 
-
-
 * **[*java.util.regex.Matcher*](https://docs.oracle.com/javase/6/docs/api/java/util/regex/Matcher.html)**
 
 
-
-
-
-
-```
+```java
 boolean find()
 String group()
 int start()
@@ -150,11 +86,9 @@ int end()
 String replaceAll(String text)
 ```
 
+ *Ejemplo:* 
 
- | 
-
-
-```
+```java
 package es.usantatecla.a0\_itinerario.a6\_packages.a1\_regExp;
 
 import java.util.regex.Matcher;
@@ -190,17 +124,12 @@ class App {
 
 
 
-| Clases de Calendario | *Ejemplo* |
-| --- | --- |
-| 
+**Clases de Calendario** 
+
 * **[*java.time.LocalDateTime*](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)**
 
 
-
-
-
-
-```
+```java
 int getYear()
 LocalDateTime plusYears(long years)
 LocalDateTime minusYears(long years)
@@ -273,16 +202,10 @@ public int getHour()
 ```
 
 
-
-
 * **[*java.time.Month*](https://docs.oracle.com/javase/8/docs/api/java/time/Month.html)**
 
 
-
-
-
-
-```
+```java
 JANUARY
 ...
 int	maxLength()
@@ -301,10 +224,9 @@ int	maxLength()
 * **[*java.time.temporal.TemporalAdjusters*](https://docs.oracle.com/javase/8/docs/api/java/time/temporal/TemporalAdjusters.html)**
 
 
- | 
+***Ejemplo:*** 
 
-
-```
+```java
 package es.usantatecla.a0\_itinerario.a6\_packages.a3\_localDateTime;
 
 import java.time.Duration;
@@ -382,14 +304,6 @@ class App {
 }
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-
-
-[Anterior](../u5packagesAndInheritance/README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)
+[Anterior](../u5packagesAndInheritance/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u7exceptionHandling/README.md)

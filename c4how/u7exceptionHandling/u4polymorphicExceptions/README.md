@@ -1,17 +1,8 @@
-# Excepciones Polimorficas
+# [Excepciones Polimorficas](README.md)
 
 
-
-
-
-
-| 
-* cuando un método captura una excepción, **sólo se ejecuta la primera sentencia *catch* en la que la referencia de la excepción producida encaje en la clase de excepción declarada** en esa sentencia *catch*;
-* *Ejemplo*: [*App.java*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a5_exceptions/a8_polymorphic/App.java)
-
-
-
-
+* Cuando un método captura una excepción, **sólo se ejecuta la primera sentencia *catch* en la que la referencia de la excepción producida encaje en la clase de excepción declarada** en esa sentencia *catch*;
+  * *Ejemplo*: [*App.java*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a5_exceptions/a8_polymorphic/App.java)
 
 
 ```
@@ -21,11 +12,7 @@ Error aritmetico : El denominador no puede ser 0
 Fin
 ```
 
-
- | 
-
-
-```
+```java
 package es.usantatecla.a5\_units.a0\_fraction.a5\_exceptions.a8\_polymorphic;
 
 public class App {
@@ -52,10 +39,8 @@ public class App {
 
 }
 ```
+<br>
 
-
- |
-| 
 * es un **error de compilación tratar de capturar una excepción en una sentencia *catch*, que ya ha sido capturada previamente** en otra sentencia *catch*;
 
 
@@ -63,10 +48,7 @@ public class App {
 
 
 
- | 
-
-
-```
+```java
 package es.usantatecla.a5\_units.a0\_fraction.a5\_exceptions.a9\_polymorphic2;
 
 public class App {
@@ -93,17 +75,8 @@ public class App {
 
 }
 ```
+<br>
 
-
- |
-
-
-
-
-
-
-
-| 
 * los **métodos pueden elevar excepciones de clases hijas de las declaradas** en su cabecera mediante la cláusula *throws*;
 * los **métodos redefinidos** en una clase
 
@@ -112,12 +85,9 @@ public class App {
 	+ pueden **sustituir excepciones en la cláusula *throws* de su cabecera por otros excepciones de sus clases hijas**;
 	+ **NO** pueden **añadir nuevas excepciones en la cláusula *throws* de su cabecera respeto a aquéllas que estaban declaradas en la cabecera del método en su clase padre**
 
+<br>
 
-
- | 
-
-
-```
+```java
 clase Base  {
 
   public void m() throws Exception { ... }
@@ -139,15 +109,7 @@ class Derivada extends Base  {
 }
 ```
 
-
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Clasificación de Excepciones](../u5exceptionClassification/README.md)
 
 
 [Anterior](../u3exceptionDelegation/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5exceptionClassification/README.md)

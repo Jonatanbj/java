@@ -1,13 +1,7 @@
-# Serialización personalizadas
+# [Serialización personalizadas](README.md)
 
+**Ejemplos** 
 
-
-
-
-
-|  | **Ejemplos** |
-| --- | --- |
-| 
 * en ciertas ocasiones es necesario personalizar el mecanismo de serialización por defecto de Java; por ejemplo:
 * ciertos atributos de los objetos de la clase no deben serializarse porque contienen información redundante o que no tiene sentido después del proceso (por ejemplo, enlaces de listas, referencias de ficheros abiertos, ventanas, etc.);
 * ciertos atributos de los objetos de la clase no implementan el interfaz *Serializable*, por lo que no deben serializarse mediante el mecanismo por defecto, sino que deben ser esos objetos los que deben responsabilizar almacenar y restaurar sus atributos;
@@ -15,10 +9,8 @@
 * para indicar que algún atributo de una clase no debe ser serializado por el mecanismo por defecto, se añade a la declaración del atributo el modificador transient;
 
 
- | 
 
-
-```
+```java
 import pooa.util.Lista; // NO SERIALIZABLE
 class AlumnoDinamico extends Persona {
       private transient Lista profesores = new Lista(); // NO
@@ -27,38 +19,29 @@ SERIALIZABLE
       …
 }
 ```
+<br> 
 
-
- |
-| 
 * cuando no se desea usar el mecanismo de serialización por defecto para una clase, se deben definir los siguientes métodos, respetando exactamente sus cabeceras:
+<br>
 
-
- | 
-
-
-```
+```java
 private void readObject(ObjectInputStream in)
   throws IOException, ClassNotFoundException
 private void writeObject(ObjectOutputStream out)
   throws IOException
 ```
 
+<br>
 
- |
-| 
 * en cuyo caso, los objetos de la clase no se serializan ni deserializan por el mecanismo por defecto, sino que:
 
 
 	+ en la serialización se invoca al método *writeObject* para que el objeto haga el proceso de la manera oportuna;
 	+ en la deserialización, sólo se crea el objeto de la clase, y se invoca el método *readObject* para que el objeto haga el proceso;
 
+<br>
 
-
- | 
-
-
-```
+```java
 import pooa.util.Lista; // NO SERIALIZABLE
 class AlumnoDinamico extends Persona {
       private float nota = 0.1f;
@@ -88,13 +71,6 @@ private void readObject(ObjectInputStream in)
 ```
 
 
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-
-
-[Anterior](../u1defaultSerialization/README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)
+[Anterior](../u1defaultSerialization/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u8parametricProgramming/README.md)

@@ -1,11 +1,5 @@
-# Visibilidad de Clasificadores
+# [Visibilidad de Clasificadores](README.md)
 
-
-
-
-
-
-| 
 * La visibilidad de las clases de un paquete es:
 
 
@@ -18,19 +12,12 @@
 		
 			* La recomendación es disponer los clasificadores en distintos ficheros, siendo excepcional y poco recomendado para alguna clase auxiliar
 	
-	+ Las clases NO declaradas *public* sólo son **accesibles solo desde el código de ese paquete** (tampoco desde sus subpaquetes);
+	+ Las clases NO declaradas *public* sólo son **accesibles solo desde el código de ese paquete** (tampoco desde sus subpaquetes); <br><br>
 
-
-
- | 
+ 
 * *MTablero.java*
 
-
-
-
-
-
-```
+```JAVA
 package pooa.ter.modelos;
 
 public class MTablero {
@@ -38,17 +25,11 @@ public class MTablero {
 }
 ```
 
-
-
-
 * *CAbrir.java*
 
 
 
-
-
-
-```
+```JAVA
 package pooa.ter.controladores;
 
 public class CAbrir {
@@ -62,15 +43,8 @@ class CMover {
 }
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Importación de Clasificadores](../u3classifierImporting/README.md)
 
 
 [Anterior](../u1packageHierarchy/README.md) | [Subir nivel](../README.md) | [Siguiente](../u3classifierImporting/README.md)

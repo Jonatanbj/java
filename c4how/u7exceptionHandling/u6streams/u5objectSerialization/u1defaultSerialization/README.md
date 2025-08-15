@@ -1,23 +1,15 @@
-# Serilización por defecto
+# [Serilización por defecto](README.md)
 
 
-
-
-
-
-| 
-* en la serialización por defecto, todos los atributos que sean tipos primitivos o cadenas de texto se escriben con el formato usado en *DataOutputStream*;
+* en la serialización por defecto, todos los atributos que sean tipos primitivos o cadenas de texto se escriben con el formato usado en *`DataOutputStream`*;
 * en la serialización por defecto, todos los campos que sean referencias a objetos deben ser, a su vez, serializables;
-* si durante el proceso de serialización o deserialización se intenta almacenar o restaurar algún objeto no serializable, se eleva una excepción de la clase *NotSerializableException*;
-* si durante la deserialización no se encuentra la clase de un objeto o no se puede cargar por otra razón, se eleva una excepción *ClassNotFoundException*;
+* si durante el proceso de serialización o deserialización se intenta almacenar o restaurar algún objeto no serializable, se eleva una excepción de la clase *`NotSerializableException`*;
+* si durante la deserialización no se encuentra la clase de un objeto o no se puede cargar por otra razón, se eleva una excepción *`ClassNotFoundException`*;
 * si una clase serializable es una subclase de otra clase no serializable, entonces los atributos de la superclase no son serializados;
-* además, la superclase no serializable debe tener un constructor sin argumentos que sea accesible desde la subclase, para que la deserialización por defecto pueda inicializar los atributos de las superclase, en caso contrario se produce una excepción *InvalidClassException*;
+* además, la superclase no serializable debe tener un constructor sin argumentos que sea accesible desde la subclase, para que la deserialización por defecto pueda inicializar los atributos de las superclase, en caso contrario se produce una excepción *`InvalidClassException`*;
 
 
- | 
-
-
-```
+```java
 import java.io.Serializable;
 abstract class Persona implements Serializable {
       …
@@ -74,17 +66,13 @@ private void restaurar() {
   }
 }
 ```
+<br> 
 
-
- |
-| 
 * otra solución más sencilla es escribir y leer directamente el vector en el fichero, en lugar de hacerlo elemento a elemento:
+<br>
 
 
- | 
-
-
-```
+```java
 class Escuela {
      private void guardar() {
          ObjectOutputStream out = null;
@@ -134,15 +122,7 @@ private void restaurar() {
 }
 ```
 
-
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Serialización personalizadas](../u2customSerialization/README.md)
 
 
 [Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2customSerialization/README.md)

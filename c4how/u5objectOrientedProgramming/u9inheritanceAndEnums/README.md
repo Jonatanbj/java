@@ -1,17 +1,16 @@
-# Herencia y Enumerados
+# [Herencia y Enumerados](README.md)
+
+
+| **Sin Enumerados** |**Con Enumerados** |
+|:---|:---| 
+| ![sin](/images/SinEnumerados.png) | ![con](/images/ConEnumerados.png) |
+
+***Sin enumerados***
 
 
 
 
-
-
-| *Sin enumerados* | *Con enumerados* |
-| --- | --- |
-| 
-
-
-```
-package es.usantatecla.a0\_itinerario.a4\_orientadoObjetos.a6\_enums.a1\_inherits;
+``` java
 
 abstract class Enum {
     public static Enum OBJECT_1 = new Object_1("OBJECT\_1");
@@ -94,12 +93,10 @@ class Object\_3 extends Enum {
 ```
 
 
- | 
+ ***Con enumerados***
 
 
-```
-package es.usantatecla.a0\_itinerario.a4\_orientadoObjetos.a6\_enums.a2\_enums;
-
+```java
 enum Enum {
     OBJECT_1 {
         public void redefinedMethod() {
@@ -146,33 +143,11 @@ enum Enum {
 }
 ```
 
-
- |
-
-
-
-
-
-
-
-
-| **Aplicaciones** |
-| --- |
-| 
-* Language - [*sin herencia*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a3_enums/Language.java) - [con herencia](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a4_inherits/Language.java)
-
-
- | 
-* Month - [*sin herencia*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a4_inherits/Month.java) - [con herencia](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a3_enums/Month.java)
-
-
- |  |
+| **Aplicaciones** ||
+| --- |---| 
+|Language - [*sin herencia*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a3_enums/Language.java) - [con herencia](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a4_inherits/Language.java) |  Month - [*sin herencia*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a4_inherits/Month.java) - [con herencia](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a3_date/a3_enums/Month.java)|
 
 
 ---
 
-[Volver al nivel superior](../README.md)
-
-
-
-[Anterior](../u7polymorphism/README.md) | [Subir nivel](../README.md) | [Siguiente](../README.md)
+[Anterior](../u8typeConversion/u1objectClass/README.md) | [Subir nivel](../README.md) | [Siguiente](/c4how/u6modularProgramming/README.md)

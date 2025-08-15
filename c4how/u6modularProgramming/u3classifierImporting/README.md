@@ -1,53 +1,26 @@
-# Importación de Clasificadores
+# [Importación de Clasificadores](README.md)
 
-
-
-
-
-
-| **Acceso a las clases** | **Prohibido acceso a las clases** |
+| **<span style="color:#1e90ff">Acceso a las clases</span>** | **<span style="color:red">Prohibido acceso a las clases</span>** |
 | --- | --- |
-| 
-* con **visibilidad pública** desde otra clase de **otro paquete**, con la **importación** correspondiente
-* con **cualquier visibilidad** desde otra clase del **mismo paquete**, **sin importación**
-
-
- | 
-* con **visibilidad de paquete** desde otra clase de **otro paquete**
-* **del paquete por defecto** desde otra clase de **otro paquete**
-
-
- |
+| - con **visibilidad pública** desde otra clase de **otro paquete**, con la **importación** correspondiente <br>  - con **cualquier visibilidad** desde otra clase del **mismo paquete**, **sin importación** | - con **visibilidad de paquete** desde otra clase de **otro paquete** <br> - **del paquete por defecto** desde otra clase de **otro paquete** |
 
 
 
 
+**Importación**  
 
-
-
-| **Importación** | *Ejemplo* |
-| --- | --- |
-| 
 * **Importación explícita**: para acceder a una clase con visibilidad pública declarada en un paquete desde una clase de otro paquete, debe usarse la **sentencia de importación *import*** de un único tipo, especificando el nombre completamente calificado de la clase a la que se desea acceder
 
 
 	+ Deben aparecer en un fichero fuente **después de la declaración de paquete y antes de cualquier clasificador**
 
+import `<paquete1>`. ... `<paqueteN>`.`<Clasificador>`;
+
+*Ejemplo* 
 
 
 
-
-
-
-```
-import <paquete1>. ... <paqueteN>.<Clasificador>;
-```
-
-
- | 
-
-
-```
+```java
 package pooa.ter.controladores;
 
 import pooa.ter.modelos.MTablero;
@@ -64,25 +37,14 @@ public class CAbrir {
 }
 ```
 
-
- |
-| 
 * **Importación bajo demanda**: cuando se usan **muchas clases de un mismo paquete, se pueden importar todas las clases del paquete**, mediante la sentencia de importación **import** de tipos bajo demanda con la **notación** *
 
 
+import `<paquete1>`. ... `<paqueteN>`.*;
 
+*Ejemplo* 
 
-
-
-```
-import <paquete1>. ... <paqueteN>.*;
-```
-
-
- | 
-
-
-```
+```java
 package pooa.ter.controladores;
 
 import pooa.ter.modelos.*;
@@ -97,16 +59,10 @@ class CMover {
 }
 ```
 
-
- |
-| 
 * **Importación implícita**: el código fuente de **cualquier fichero de un paquete importa implícitamente el resto de su propio paquete**, por lo que todas las clases definidas en un paquete están disponibles para todas las clases de ese mismo paquete
 
 
- | 
-
-
-```
+```java
 package pooa.ter.controladores;
 
 import pooa.ter.controladores.CPoner; // innecesario
@@ -119,67 +75,35 @@ public class CAbrir {
 }
 ```
 
-
- |
-
-
-
-
-
-
-
-
-| **Colisión de nombres** | *Ejemplo* |
-| --- | --- |
-| 
+**Colisión de nombres**   
 * Es un **error importar el mismo nombre de clase de dos paquetes diferentes** usando importaciones individuales de clase y/o bajo demanda
 
 
- | 
+*Ejemplo* 
 
-
-```
+```java
 import java.util.Date;
 import java.sql.Date; // Error
 ```
 
-
- | 
-
-
-```
+```java
 import java.util.*;
 import java.sql.*;
 ...
   Date fecha = new Date(); // Error
 ...
 ```
-
-
- |
-| 
 * **Resolución de Colisión de nombres**: se **debe usar el nombre completamente calificado de la clase en todas sus ocurrencias**
 
 
- | 
-
-
-```
+```java
 …
 java.util.Date fechaUtil = new java.util.Date();
 java.sql.Date fechaSql = new java.sql.Date();
 …
 ```
 
-
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Visibilidad de Miembros](../u4memberVisibility/README.md)
 
 
 [Anterior](../u2classifierVisibility/README.md) | [Subir nivel](../README.md) | [Siguiente](../u4memberVisibility/README.md)

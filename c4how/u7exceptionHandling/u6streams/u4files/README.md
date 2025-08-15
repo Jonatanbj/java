@@ -1,54 +1,24 @@
-# Ficheros
+# [Ficheros](README.md)
 
 
-
-
-
-
-|  | **Ejemplo:** |
-| --- | --- |
-| 
 * los **flujos *File (FileInputStream, FileOutputStream, FileReader y FileWriter)*** permiten tratar a un **fichero como un flujo de entrada o de salida**;
 
+  + Para crear un objeto, se usa un **constructor que recibe como argumento el nombre del fichero**;
 
-	+ Para crear un objeto, se usa un **constructor que recibe como argumento el nombre del fichero**;
+**Ejemplo:**
 
-
-
- | 
-
-
-```
+```java
 FileWriter outTxt = new FileWriter("salida.txt");
 FileReader inTxt = new FileReader("entrada.txt");
 FileOutputStream outDat = new FileOutputStream("salida.dat");
 FileInputStream inDat = new FileInputStream("entrada.dat");
 ```
 
-
- |
-
-
-
-
-
-
-
-| **Ficheros de texto** |
-| --- |
-| 
+**Ficheros de texto**
+ 
 * [Clase plantilla](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_itinerario/a5_excepciones/a1_writeText/App.java) para **escribir en un fichero de texto** se usa la **clase *PrintWriter***
 
-
- | 
-* [Clase plantilla](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_itinerario/a5_excepciones/a2_readText/App.java) para **leer de un fichero de texto** se usa la **clase *BufferedReader***
-
-
- |
-| 
-
-
-```
+```java
 package es.usantatecla.a0\_itinerario.a5\_excepciones.a1\_writeText;
 
 import java.io.IOException;
@@ -78,10 +48,11 @@ class App {
 ```
 
 
- | 
+* [Clase plantilla](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_itinerario/a5_excepciones/a2_readText/App.java) para **leer de un fichero de texto** se usa la **clase *BufferedReader***
 
 
-```
+
+```java
 package es.usantatecla.a0\_itinerario.a5\_excepciones.a2\_readText;
 
 import java.io.BufferedReader;
@@ -114,29 +85,11 @@ class App {
 ```
 
 
- |
+**Ficheros binarios** 
 
-
-
-
-
-
-
-| **Ficheros binarios** |
-| --- |
-| 
 * [Clase plantilla](https://github.com/USantaTecla-tech-java/src/tree/main/src/main/java/es/usantatecla/a0_itinerario/a5_excepciones/a3_writeBinary/App.java) para **escribir en un fichero binario** se usa la **clase *DataOutputStream***
 
-
- | 
-* [Clase plantilla](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_itinerario/a5_excepciones/a4_readBinary/App.java) para **leer de un fichero binario** se usa la **clase *DataInputStream***
-
-
- |
-| 
-
-
-```
+```java
 package es.usantatecla.a0\_itinerario.a5\_excepciones.a3\_writeBinary;
 
 import java.io.DataOutputStream;
@@ -169,11 +122,10 @@ class App {
 }
 ```
 
+* [Clase plantilla](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a0_itinerario/a5_excepciones/a4_readBinary/App.java) para **leer de un fichero binario** se usa la **clase *DataInputStream***
 
- | 
 
-
-```
+```java
 package es.usantatecla.a0\_itinerario.a5\_excepciones.a4\_readBinary;
 
 import java.io.DataInputStream;
@@ -205,15 +157,7 @@ class App {
 }
 ```
 
-
- |
-
-
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Serialización de Objetos](../u5objectSerialization/README.md)
 
 
 [Anterior](../u3otherStreams/README.md) | [Subir nivel](../README.md) | [Siguiente](../u5objectSerialization/README.md)

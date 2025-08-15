@@ -1,13 +1,6 @@
-# Delegación de Excepciones
+# [Delegación de Excepciones](README.md)
 
-
-
-
-
-
-| **Delegación** | *Ejemplo* |
-| --- | --- |
-| 
+**Delegación**  
 * si el **método no captura una excepción, la propaga al método que lo invocó**
 
 
@@ -15,10 +8,7 @@
 
 * *Ejemplo*: [*App.java*](https://github.com/USantaTecla-tech-java/src/blob/main/src/main/java/es/usantatecla/a5_units/a0_fraction/a5_exceptions/a7_nested/App.java)
 
-
-
-
-
+<br>
 
 ```
 Antes
@@ -30,13 +20,9 @@ java.lang.ArithmeticException: El denominador no puede ser 0
 Fin
 ```
 
+*Ejemplo* 
 
- | 
-
-
-```
-package es.usantatecla.a5\_units.a0\_fraction.a5\_exceptions.a7\_nested;
-
+```java
 public class App {
 
   public static void main(String[] args) {
@@ -62,15 +48,8 @@ public class App {
 }
 ```
 
-
- |
-
-
 ---
 
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Excepciones Polimorficas](../u4polymorphicExceptions/README.md)
 
 
 [Anterior](../u2exceptionCatching/README.md) | [Subir nivel](../README.md) | [Siguiente](../u4polymorphicExceptions/README.md)

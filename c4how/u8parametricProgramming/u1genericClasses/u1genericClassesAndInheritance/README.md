@@ -1,59 +1,13 @@
-# Clases genéricas y herencia
+# [Clases genéricas y herencia](README.md)
 
-
-
-
-
-
-|  | Ejemplo |
-| --- | --- |
-| 
-* **Una clase genérica puede heredar de otra clase genérica**
-
-
- | 
-
-
-```
-public class BoundedStack<E> extends BoundedDispenser<E>
-```
-
-
- |
-| 
-* **Una clase genérica puede heredar de una clase no genérica**
-
-
- | 
-
-
-```
-public class BoundedStack<E> implements Serializable
-```
-
-
- |
-| 
-* **Una clase no genérica puede heredar de una clase genérica**
-
-
- | 
-
-
-```
-public class IntBoundedStack extends BoundedStack<Integer>
-public final class Integer extends Number implements Comparable<Integer>
-```
-
-
- |
+| Caso | Ejemplo |
+| :--- | :--- |
+| **Una clase genérica puede heredar de otra clase genérica** | `java` `public` `class` `extends` `BoundedDispenser` |
+| **Una clase genérica puede heredar de una clase no genérica** | `public` `class` `BoundedStack`<E> `implements` `Serializable`|
+| **Una clase no genérica puede heredar de una clase genérica** | `public` `class` `IntBoundedStack` `extends` `BoundedStack``<Integer>` <br> `public` `final` `class` `Integer` `extends` `Number` `implements` `Comparable``<Integer>`
 
 
 ---
-
-[Volver al nivel superior](../README.md)
-
-[Siguiente sección: Limitaciones de las clases genéricas](../u2genericClassesLimitations/README.md)
 
 
 [Anterior](../README.md) | [Subir nivel](../README.md) | [Siguiente](../u2genericClassesLimitations/README.md)
